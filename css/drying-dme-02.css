@@ -1,0 +1,39 @@
+.namd-btn {
+    position: absolute;
+    top: 0;
+    right: 13%;
+    width: 13%;
+    height: 5%;
+    /* border: 1px solid white; */
+}
+
+.graph-label-container {
+    position: absolute;
+    top: 21%;
+    left: 61%;
+    width: 20.56%;
+    height: 43.5%;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+
+.graph-label {
+    position: relative;
+    top: 100%;
+    width: 100%;
+}
+
+@keyframes slideUp {
+    from {top: 100%;}
+    to {top: 0%}
+}
+
+.animated-slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}

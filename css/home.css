@@ -1,0 +1,9 @@
+.link {
+    width: 8%;
+    height: 1.5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 39.3%;
+    left: 13%;
+    /* border: 1px solid red; */
+}

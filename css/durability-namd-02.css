@@ -1,0 +1,81 @@
+.dme_top_button {
+    width: 14%;
+    height: 5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* border: 1px solid red; */
+}
+
+.namd_week_0_img {
+    width: 62%;
+    height: 53%;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.namd_week_16_img {
+    width: 62%;
+    height: 55%;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.namd_week_24_img {
+    width: 62%;
+    height: 55%;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.namd_week_48_img {
+    width: 62%;
+    height: 55%;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.namd_week_0_btn {
+    width: 6%;
+    height: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 31%;
+    /* border: 1px solid red; */
+}
+
+.namd_week_16_btn {
+    width: 6%;
+    height: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    /* border: 1px solid red; */
+}
+
+.namd_week_24_btn {
+    width: 6%;
+    height: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 63%;
+    /* border: 1px solid red; */
+}
+
+.namd_week_48_btn {
+    width: 6%;
+    height: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 79%;
+    /* border: 1px solid red; */
+}

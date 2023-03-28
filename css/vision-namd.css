@@ -1,0 +1,59 @@
+.dme-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 4.7%;
+    /* border: 1px solid white; */
+}
+
+.link {
+    width: 8%;
+    height: 1.5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 82%;
+    left: 63%;
+    /* border: 1px solid white; */
+}
+
+.content-btn {
+    position: absolute;
+    top: 64%;
+}
+
+.btn-study-design {
+    right: 4%;
+    width: 13.08%;
+}
+
+.graph-label-container {
+    position: absolute;
+    top: 52.5%;
+    left: 41.9%;
+    width: 35.5%;
+    height: 4.8%;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+
+.graph-label {
+    position: relative;
+    top: 100%;
+    width: 100%;
+}
+
+@keyframes slideUp {
+    from {top: 100%;}
+    to {top: 0%}
+}
+
+.animated-slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,72 @@
+.namd-btn {
+    position: absolute;
+    top: 0;
+    right: 13%;
+    width: 13%;
+    height: 5%;
+    /* border: 1px solid white; */
+}
+
+.graph-label-container {
+    position: absolute;
+    top: 49%;
+    left: 57.2%;
+    width: 19.63%;
+    height: 3%;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+
+.graph-label {
+    position: relative;
+    top: 0;
+    left: 31%;
+    height: 100%;
+    width: 38%;
+}
+
+.graph-animated {
+    position: absolute;
+    top: 0;
+    width: 30.5%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.graph-right {
+    right: 31%;
+}
+
+.graph-left {
+    left: 31%;
+}
+
+@keyframes expand {
+    from {right: 31%;}
+    to {right: 0%}
+}
+
+@keyframes expand-reverse {
+    from {left: 31%;}
+    to {left: 0%}
+}
+
+.animated-expand {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}
+
+.animated-expand-reverse {
+    animation-name: expand-reverse;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-fill-mode: forwards;
+}

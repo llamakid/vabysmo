@@ -1,0 +1,31 @@
+<root>
+   <label codeSystem="2.16.840.1.113883.6.69" name="NDC">
+      <approval code="C73583"/>
+      <approval code="C73584"/>
+      <approval code="C73585"/>
+      <approval code="C73593"/>
+      <approval code="C73588"/>
+      <approval code="C73594"/>
+      <approval code="C73605"/>
+      <approval code="C73626"/>
+      <approval code="C94795"/>
+      <approval code="C73603"/>
+      <approval code="C73604"/>
+      <approval code="C73614"/>
+      <approval code="C73613"/>
+      <approval code="C73627"/>
+      <approval code="C92556"/>
+      <approval code="C73590"/>
+   </label>
+   <label codeSystem="2.16.840.1.113883.6.69" name="NHRIC">
+      <approval code="C80438"/>
+      <approval code="C80440"/>
+      <approval code="C80441"/>
+      <approval code="C80442"/>
+      <approval code="C86964"/>
+	  <approval code="C99999"/>
+   </label>
+   <label codeSystem="1.3.160" drug="0" name="GS1"/>
+   <label codeSystem="2.16.840.1.113883.6.40" drug="0" name="HIBCC"/>
+   <label codeSystem="2.16.840.1.113883.6.69" drug="1" name="NDC"/>
+</root>

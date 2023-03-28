@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vabysmo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/vision-namd.css">
+
+        <script src="js/veeva-library.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="main-content">
+            <img src="img/Vision_namd_bkg_1.png" alt="" class="bgimg">
+            <img src="img/Global_expand_btn.png" alt="" class="isi-expand" onclick="showISIPopup('isi-pop');">
+            <div class="link durability" onclick="goToPage('durability-namd-01');"></div>
+            <div class="dme-btn" onclick="goToPage('vision-dme-01');"></div>
+            <img src="img/Study_Design_btn.png" alt="" class="content-btn btn-study-design" onclick="showISIPopup('study-design-pop');">
+            <div class="graph-label-container">
+                <img src="img/Vision_namd_graph_explore_box_1.png" alt="" class="graph-label animated-slideUp">
+            </div>
+            <img src="img/Global_right_btn.png" alt="" class="arrow-nav arrow-next" onclick="goToPage('vision-dme-01');">
+
+            <div class="bottom_nav">
+                <img src="img/Global_nav_bkg.png" class="bottom_nav_bkg" >
+                <div class="nav-btn-container">
+                    <img src="img/Global_nav_home.png" alt="" class="bottom_nav_home_btn" onclick="goToPage('index');">
+                    <img src="img/Global_nav_dual_pathway.png" alt="" class="bottom_nav_duelPathway_btn" onclick="goToPage('dual-pathway-01');">
+                    <img src="img/Global_nav_vision_tap.png" alt="" class="bottom_nav_vision_btn" onclick="goToVisionIndication('namd');" >
+                    <img src="img/Global_nav_drying.png" alt="" class="bottom_nav_drying_btn" onclick="goToDryingIndication('namd');">
+                    <img src="img/Global_nav_durability.png" alt="" class="bottom_nav_durability_btn" onclick="goToDurabilityIndication('namd');">
+                    <img src="img/Global_nav_safety.png" alt="" class="bottom_nav_safety_btn" onclick="goToPage('safety');">
+                    <img src="img/Global_nav_start_today.png" alt="" class="bottom_nav_start_today_btn" onclick="goToPage('start-today');">
+                    <div class="nav-spacer"></div>
+                    <img src="img/Global_nav_references.png" alt="" class="bottom_nav_references_btn" onclick="showISIPopup('references-pop');">
+                    <img src="img/Global_nav_PI.png" alt="" class="bottom_nav_pi_btn" onclick="goToPage('prescribing-info');">
+                </div>
+            </div>
+
+            <div id="isi-pop" class="hidden popup">
+                <img src="img/Global_ISI_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('isi-pop');"></div>
+            </div>
+
+            <div id="references-pop" class="hidden popup">
+                <img src="img/Global_reference_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('references-pop');"></div>
+            </div>
+
+            <div id="study-design-pop" class="hidden popup">
+                <img src="img/Vision_namd_study_design_popup.png" alt="" class="study-design-content">
+                <div class="popup-close" onclick="hideISIPopup('study-design-pop');"></div>
+            </div>
+
+        </div>
+        <script>
+            setLastPage('vision-namd-01');
+        </script>
+    </body>
+</html>

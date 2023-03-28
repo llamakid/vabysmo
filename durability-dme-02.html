@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vabysmo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/durability-dme-02.css">
+
+        <script src="js/main.js"></script>
+        <script src="js/durability-dme.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="main-content">
+
+            <img src="img/Durability_dme_patient_1_bkg.png" alt="" id="bgimg" class="bgimg">
+            <img src="img/Global_expand_btn.png" alt="" class="isi-expand" onclick="showISIPopup('isi-pop');">
+
+            <a href="#" class="dme_top_button" onclick="goToPage('durability-namd-02');"></a>
+            <img src="img/Global_left_btn.png" alt="" class="arrow-nav arrow-prev" onclick="goToPage('durability-dme-01');">
+
+            <img src="img/Durability_dme_patient_case_1_week_0.png" alt="" id="dme_case_1_week_0_img" class="dme_case_1_week_0_img" >
+            <img src="img/Durability_dme_patient_case_1_week_12.png" alt="" id="dme_case_1_week_12_img" class="dme_case_1_week_12_img hidden" />
+            <img src="img/Durability_dme_patient_case_1_week_32.png" alt="" id="dme_case_1_week_32_img" class="dme_case_1_week_32_img hidden" />
+            <img src="img/Durability_dme_patient_case_1_week_96.png" alt="" id="dme_case_1_week_96_img" class="dme_case_1_week_96_img hidden" />
+
+            <img src="img/Durability_dme_patient_case_2_week_0.png" alt="" id="dme_case_2_week_0_img" class="dme_case_2_week_0_img hidden" >
+            <img src="img/Durability_dme_patient_case_2_week_12.png" alt="" id="dme_case_2_week_12_img" class="dme_case_2_week_12_img hidden" />
+            <img src="img/Durability_dme_patient_case_2_week_44.png" alt="" id="dme_case_2_week_44_img" class="dme_case_2_week_44_img hidden" />
+            <img src="img/Durability_dme_patient_case_2_week_96.png" alt="" id="dme_case_2_week_96_img" class="dme_case_2_week_96_img hidden" />
+            
+            <a href="#" id="dme_case_1_week_0_btn" class="dme_case_1_week_0_btn" onclick="replaceImg('dme_case_1_week_0_img');"></a>
+            <a href="#" id="dme_case_1_week_12_btn" class="dme_case_1_week_12_btn" onclick="replaceImg('dme_case_1_week_12_img');"></a>
+            <a href="#" id="dme_case_1_week_32_btn" class="dme_case_1_week_32_btn" onclick="replaceImg('dme_case_1_week_32_img');"></a>
+            <a href="#" id="dme_case_1_week_96_btn" class="dme_case_1_week_96_btn" onclick="replaceImg('dme_case_1_week_96_img');"></a>
+
+            <a href="#" id="dme_case_2_week_0_btn" class="dme_case_2_week_0_btn hidden" onclick="replaceImg('dme_case_2_week_0_img');"></a>
+            <a href="#" id="dme_case_2_week_12_btn" class="dme_case_2_week_12_btn hidden" onclick="replaceImg('dme_case_2_week_12_img');"></a>
+            <a href="#" id="dme_case_2_week_44_btn" class="dme_case_2_week_44_btn hidden" onclick="replaceImg('dme_case_2_week_44_img');"></a>
+            <a href="#" id="dme_case_2_week_96_btn" class="dme_case_2_week_96_btn hidden" onclick="replaceImg('dme_case_2_week_96_img');"></a>
+
+            <img src="img/Patient_Case_1_btn_tap.png" alt="" id="patient_case_1_btn" class="patient_case_1_btn" onclick="swapPatientCase('1');" />
+            <img src="img/Patient_Case_2_btn.png" alt="" id="patient_case_2_btn" class="patient_case_2_btn" onclick="swapPatientCase('2');" />
+            
+            <div class="bottom_nav">
+                <img src="img/Global_nav_bkg.png" alt="" class="bottom_nav_bkg" >
+                <div class="nav-btn-container">
+                    <img src="img/Global_nav_home.png" alt="" class="bottom_nav_home_btn" onclick="goToPage('index');">
+                    <img src="img/Global_nav_dual_pathway.png" alt="" class="bottom_nav_duelPathway_btn" onclick="goToPage('dual-pathway-01');">
+                    <img src="img/Global_nav_vision.png" class="bottom_nav_vision_btn" onclick="goToVisionIndication('dme');" >
+                    <img src="img/Global_nav_drying.png" alt="" class="bottom_nav_drying_btn" onclick="goToDryingIndication('dme');">
+                    <img src="img/Global_nav_durability_tap.png" alt="" class="bottom_nav_durability_btn" onclick="goToDurabilityIndication('dme');">
+                    <img src="img/Global_nav_safety.png" alt="" class="bottom_nav_safety_btn" onclick="goToPage('safety');">
+                    <img src="img/Global_nav_start_today.png" alt="" class="bottom_nav_start_today_btn" onclick="goToPage('start-today');">
+                    <div class="nav-spacer"></div>
+                    <img src="img/Global_nav_references.png" alt="" class="bottom_nav_references_btn" onclick="showISIPopup('references-pop');">
+                    <img src="img/Global_nav_PI.png" alt="" class="bottom_nav_pi_btn" onclick="goToPage('prescribing-info');">
+                </div>
+            </div>
+
+            <div id="isi-pop" class="hidden popup">
+                <img src="img/Global_ISI_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('isi-pop');"></div>
+            </div>
+
+            <div id="references-pop" class="hidden popup">
+                <img src="img/Global_reference_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('references-pop');"></div>
+            </div>
+
+        </div>
+
+        <script>
+            setLastPage('durability-dme-02');
+        </script>
+    </body>
+</html>
+
