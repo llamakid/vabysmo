@@ -40,12 +40,17 @@ function setLastPage(setPage) {
 
 function backToPage() {
 	let page = sessionStorage.getItem("lastPage");
-	window.location.href = page;
+	window.location.href = "../" + page + ".html";
 }
 
 function goToPage(page) {
 	console.log("Going to page: " + page);
-	window.location.href = page + ".html";
+	if(page === "prescribing-info") {
+		window.location.href = "pi/index.html";
+	}else {
+		window.location.href = page + ".html";
+	}
+	
 }
 
 function goToDryingIndication(indication) {

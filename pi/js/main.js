@@ -38,9 +38,14 @@ function setLastPage(setPage) {
 	sessionStorage.setItem("lastPage", setPage);
 }
 
+// function backToPage() {
+// 	let page = sessionStorage.getItem("lastPage");
+// 	goToSlide(page);
+// }
+
 function backToPage() {
 	let page = sessionStorage.getItem("lastPage");
-	goToSlide(page);
+	window.location.href = "../" + page + ".html";
 }
 
 function goToSlide(slideId) {
