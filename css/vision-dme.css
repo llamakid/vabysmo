@@ -9,16 +9,17 @@
 
 .content-btn {
     position: absolute;
-    top: 66%;
 }
 
 .btn-study-design {
-    right: 18.5%;
+    top: 63.5%;
+    right: 5%;
     width: 13.08%;
 }
 
 .btn-treat-extend {
-    right: 3.5%;
+    top: 69%;
+    right: 5%;
     width: 13.13%;
 }
 
