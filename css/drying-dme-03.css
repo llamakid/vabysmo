@@ -10,7 +10,7 @@
 .graph-label-container {
     position: absolute;
     top: 49%;
-    left: 57.2%;
+    left: 57.5%;
     width: 19.63%;
     height: 3.3%;
     overflow: hidden;
@@ -28,7 +28,7 @@
 .graph-animated {
     position: absolute;
     top: 0;
-    width: 30.5%;
+    width: 30.6%;
     height: 100%;
     /* border: 1px solid red; */
 }

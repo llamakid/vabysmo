@@ -30,11 +30,11 @@
 .graph-label-container {
     position: absolute;
     top: 53%;
-    left: 43.5%;
+    left: 43.7%;
     width: 35.5%;
     height: 4.8%;
     overflow: hidden;
-    /* border: 1px solid white; */
+    /* border: 1px solid red; */
 }
 
 .graph-label {
