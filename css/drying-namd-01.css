@@ -7,6 +7,13 @@
     /* border: 1px solid white; */
 }
 
+.bgimg {
+    position: relative;
+    top: -0.1%;
+    width: 100%;
+    height: 100%;
+}
+
 .link {
     width: 8%;
     height: 1.5%;
@@ -20,7 +27,7 @@
 .graph-label-container {
     position: absolute;
     top: 56%;
-    left: 44.8%;
+    left: 44.5%;
     width: 40%;
     height: 5.5%;
     overflow: hidden;

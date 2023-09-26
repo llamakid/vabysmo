@@ -19,7 +19,8 @@
             <img src="img/Global_expand_btn.png" alt="" class="isi-expand" onclick="showISIPopup('isi-pop');">
 
             <a href="#" class="dme_top_button" onclick="goToPage('durability-namd-02');"></a>
-            <img src="img/Global_left_btn.png" alt="" class="arrow-nav arrow-prev" onclick="goToPage('durability-dme-01');">
+
+            <div class="arrow-nav arrow-prev" onclick="goToPage('durability-dme-01');" ></div>
 
             <img src="img/Durability_dme_patient_case_1_week_0.png" alt="" id="dme_case_1_week_0_img" class="dme_case_1_week_0_img" >
             <img src="img/Durability_dme_patient_case_1_week_12.png" alt="" id="dme_case_1_week_12_img" class="dme_case_1_week_12_img hidden" />
@@ -41,8 +42,8 @@
             <a href="#" id="dme_case_2_week_44_btn" class="dme_case_2_week_44_btn hidden" onclick="replaceImg('dme_case_2_week_44_img');"></a>
             <a href="#" id="dme_case_2_week_96_btn" class="dme_case_2_week_96_btn hidden" onclick="replaceImg('dme_case_2_week_96_img');"></a>
 
-            <img src="img/Patient_Case_1_btn_tap.png" alt="" id="patient_case_1_btn" class="patient_case_1_btn" onclick="swapPatientCase('1');" />
-            <img src="img/Patient_Case_2_btn.png" alt="" id="patient_case_2_btn" class="patient_case_2_btn" onclick="swapPatientCase('2');" />
+            <img src="img/Patient_Case_1_btn_tap.png" alt="" id="patient_case_1_btn" class="patient_case_1_btn" onclick="swapPatientCase('1'); setPatientCase('1');" />
+            <img src="img/Patient_Case_2_btn.png" alt="" id="patient_case_2_btn" class="patient_case_2_btn" onclick="swapPatientCase('2'); setPatientCase('2');" />
             
             <div class="bottom_nav">
                 <img src="img/Global_nav_bkg.png" alt="" class="bottom_nav_bkg" >
@@ -74,6 +75,7 @@
 
         <script>
             setLastPage('durability-dme-02');
+            getPatientCase();
         </script>
     </body>
 </html>
