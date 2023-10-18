@@ -26,14 +26,14 @@
 .bgimg {
     position: relative;
     top: -0.1%;
-    width: 100%;
+    width: 100.5%;
     height: 100%;
 }
 
 .graph-label-container {
     position: absolute;
     top: 60.2%;
-    left: 59.6%;
+    left: 59.9%;
     width: 19.8%;
     height: 3.65%;
     overflow: hidden;
