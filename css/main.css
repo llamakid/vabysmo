@@ -26,7 +26,7 @@ body {
 
 .isi-expand {
     position: absolute;
-    top: 48%;
+    top: 47%;
     left: 2.5%;
     width: 2.7%;
     aspect-ratio: 1;
@@ -34,7 +34,7 @@ body {
 
 .isi-expand-home {
     position: absolute;
-    top: 51.5%;
+    top: 47%;
     left: 2.5%;
     width: 2.7%;
     aspect-ratio: 1;
@@ -58,14 +58,23 @@ body {
     top: 10%;
     right: 9.5%;
     width: 5%;
-    height: 7%;
+    height: 10%;
     /* border: 1px solid black; */
+}
+
+.rvo-close {
+    position: absolute;
+    top: 30%;
+    right: 9.5%;
+    width: 5%;
+    height: 10%;
+    /* border: 1px solid red; */
 }
 
 .bottom_nav {
     position: absolute;
     width: 100%;
-    height: 7.355%;
+    height: 7.5%;
     bottom: 0;
     left: 0;
     padding: 0;
@@ -74,7 +83,7 @@ body {
 
 @media only screen and (min-width: 1150px) and (max-width: 1200px){
 	.bottom_nav {
-        height: 7.8%;
+        height: 7.9%;
     }
 }
 
@@ -110,18 +119,20 @@ body {
 
 .arrow-nav {
     position: absolute;
-    width: 2%;
+    width: 5%;
     height: 4.5%;;
     bottom: 10%;
 
 }
 
 .arrow-next {
-    right: 2.5%;
+    right: 0.8%;
+    bottom: 8%;
     /* border: 1px solid red; */
 }
 
 .arrow-prev {
     right: 5%;
+    bottom: 8%;
     /* border: 1px solid red; */
 }

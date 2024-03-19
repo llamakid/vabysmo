@@ -1,9 +1,27 @@
+.dme-btn {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 9%;
+    height: 4.7%;
+    /* border: 1px solid white; */
+}
+
 .namd-btn {
     position: absolute;
     top: 0;
-    right: 13%;
-    width: 13%;
-    height: 5%;
+    right: 18%;
+    width: 9%;
+    height: 4.5%;
+    /* border: 1px solid white; */
+}
+
+.rvo-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 4.7%;
     /* border: 1px solid white; */
 }
 
@@ -16,10 +34,10 @@
 
 .graph-label-container {
     position: absolute;
-    top: 21.3%;
-    left: 61.8%;
+    top: 21.8%;
+    left: 58%;
     width: 19.5%;
-    height: 43%;
+    height: 40.5%;
     overflow: hidden;
     /* border: 1px solid white; */
 }

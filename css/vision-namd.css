@@ -1,8 +1,17 @@
 .dme-btn {
     position: absolute;
     top: 0;
+    right: 10%;
+    width: 9%;
+    height: 4.7%;
+    /* border: 1px solid white; */
+}
+
+.rvo-btn {
+    position: absolute;
+    top: 0;
     right: 0;
-    width: 15%;
+    width: 10%;
     height: 4.7%;
     /* border: 1px solid white; */
 }
@@ -37,9 +46,9 @@
 
 .graph-label-container {
     position: absolute;
-    top: 57.8%;
-    left: 43.6%;
-    width: 38.5%;
+    top: 55%;
+    left: 41.5%;
+    width: 36%;
     height: 4.8%;
     overflow: hidden;
     /* border: 1px solid white; */

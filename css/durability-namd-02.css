@@ -1,5 +1,5 @@
 .dme_top_button {
-    width: 14%;
+    width: 11%;
     height: 5%;
     box-sizing: border-box;
     position: absolute;
@@ -9,32 +9,32 @@
 }
 
 .namd_week_0_img {
-    width: 62%;
-    height: 56%;
+    width: 53%;
+    height: 47%;
     position: absolute;
     top: 18%;
     left: 27%;
 }
 
 .namd_week_16_img {
-    width: 62%;
-    height: 58%;
+    width: 53%;
+    height: 48.7%;
     position: absolute;
     top: 18%;
     left: 27%;
 }
 
 .namd_week_24_img {
-    width: 62%;
-    height: 58%;
+    width: 53%;
+    height: 48.8%;
     position: absolute;
     top: 18%;
     left: 27%;
 }
 
 .namd_week_48_img {
-    width: 62%;
-    height: 58%;
+    width: 53%;
+    height: 48.7%;
     position: absolute;
     top: 18%;
     left: 27%;
@@ -45,8 +45,8 @@
     height: 6%;
     box-sizing: border-box;
     position: absolute;
-    top: 57%;
-    left: 31%;
+    top: 51%;
+    left: 30%;
     /* border: 1px solid red; */
 }
 
@@ -55,8 +55,8 @@
     height: 6%;
     box-sizing: border-box;
     position: absolute;
-    top: 57%;
-    left: 47%;
+    top: 51%;
+    left: 44%;
     /* border: 1px solid red; */
 }
 
@@ -65,8 +65,8 @@
     height: 6%;
     box-sizing: border-box;
     position: absolute;
-    top: 57%;
-    left: 63%;
+    top: 51%;
+    left: 57%;
     /* border: 1px solid red; */
 }
 
@@ -75,7 +75,7 @@
     height: 6%;
     box-sizing: border-box;
     position: absolute;
-    top: 57%;
-    left: 79%;
+    top: 51%;
+    left: 71%;
     /* border: 1px solid red; */
 }

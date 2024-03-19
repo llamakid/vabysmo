@@ -1,9 +1,9 @@
 .namd_top_button {
-    width: 13%;
+    width: 11%;
     height: 5%;
     box-sizing: border-box;
     position: absolute;
     top: 0;
-    right: 13%;
+    right: 9%;
     /* border: 1px solid red; */
 }

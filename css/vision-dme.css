@@ -1,26 +1,45 @@
+.dme-btn {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 9%;
+    height: 4.7%;
+    /* border: 1px solid white; */
+}
+
 .namd-btn {
     position: absolute;
     top: 0;
-    right: 14%;
-    width: 12%;
+    right: 18%;
+    width: 9%;
     height: 4.5%;
     /* border: 1px solid white; */
 }
+
+.rvo-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 4.7%;
+    /* border: 1px solid white; */
+}
+
 
 .content-btn {
     position: absolute;
 }
 
 .btn-study-design {
-    top: 66.5%;
-    right: 5%;
-    width: 13.08%;
+    top: 70.5%;
+    right: 15%;
+    width: 12.5%;
 }
 
 .btn-treat-extend {
-    top: 72%;
-    right: 5%;
-    width: 13.13%;
+    top: 70.5%;
+    right: 1%;
+    width: 12.5%;
 }
 
 .bgimg {
@@ -32,9 +51,9 @@
 
 .graph-label-container {
     position: absolute;
-    top: 60.2%;
-    left: 59.9%;
-    width: 19.8%;
+    top: 53%;
+    left: 56.5%;
+    width: 18.3%;
     height: 3.65%;
     overflow: hidden;
     /* border: 1px solid white; */

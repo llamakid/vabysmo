@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vabysmo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/start-today.css">
+
+        <script src="js/veeva-library.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    <body>
+
+        <div class="main-content">
+            <img src="img/Start_Today_bkg_2.png" alt="" class="bgimg">
+            <img src="img/Global_expand_btn.png" alt="" class="isi-expand" onclick="showISIPopup('isi-pop');">
+
+            <div class="arrow-nav arrow-prev" onclick="goToPage('start-today');" ></div>
+            
+            <div class="bottom_nav">
+                <img src="img/Global_nav_bkg.png" class="bottom_nav_bkg" >
+                <div class="nav-btn-container">
+                    <img src="img/Global_nav_home.png" alt="" class="bottom_nav_home_btn" onclick="goToPage('index');">
+                    <img src="img/Global_nav_dual_pathway.png" alt="" class="bottom_nav_duelPathway_btn" onclick="goToPage('dual-pathway-01');">
+                    <img src="img/Global_nav_vision.png" alt="" class="bottom_nav_vision_btn" onclick="goToPage('vision-namd-01');" >
+                    <img src="img/Global_nav_drying.png" alt="" class="bottom_nav_drying_btn" onclick="goToPage('drying-namd-01');">
+                    <img src="img/Global_nav_durability.png" alt="" class="bottom_nav_durability_btn" onclick="goToPage('durability-namd-01');">
+                    <img src="img/Global_nav_safety.png" alt="" class="bottom_nav_safety_btn" onclick="goToPage('safety');">
+                    <img src="img/Global_nav_start_today_tap.png" alt="" class="bottom_nav_start_today_btn" onclick="goToPage('start-today');">
+                    <div class="nav-spacer"></div>
+                    <img src="img/Global_nav_references.png" alt="" class="bottom_nav_references_btn" onclick="showISIPopup('references-pop');">
+                    <img src="img/Global_nav_PI.png" alt="" class="bottom_nav_pi_btn" onclick="goToPage('prescribing-info');">
+                </div>
+            </div>
+
+            <div id="isi-pop" class="hidden popup">
+                <img src="img/Global_ISI_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('isi-pop');"></div>
+            </div>
+
+            <div id="references-pop" class="hidden popup">
+                <img src="img/Global_reference_popup.png" alt="" class="isi-content">
+                <div class="popup-close" onclick="hideISIPopup('references-pop');"></div>
+            </div>
+        </div>
+        <script>
+            setLastPage('start-today-02');
+        </script>
+        <script src="js/starttoday.js"></script>
+    </body>
+</html>

@@ -38,3 +38,23 @@
   top: 0;
   width: 100%;
 }
+
+.link-durability {
+  width: 8%;
+  height: 1.5%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 87%;
+  left: 68%;
+  border: 1px solid red;
+}
+
+.link-drying {
+  width: 8%;
+  height: 1.5%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 85%;
+  left: 77%;
+  border: 1px solid red;
+}
