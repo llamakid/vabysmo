@@ -62,6 +62,15 @@ body {
     /* border: 1px solid black; */
 }
 
+.references-popup-close {
+    position: absolute;
+    top: 22%;
+    right: 9.5%;
+    width: 5%;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+
 .rvo-close {
     position: absolute;
     top: 30%;

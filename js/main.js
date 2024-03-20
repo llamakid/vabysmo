@@ -58,6 +58,8 @@ function goToDryingIndication(indication) {
 		goToPage('drying-dme-01')
 	}else if(indication === 'namd') {
 		goToPage('drying-namd-01')
+	}else if(indication === 'rvo') {
+		goToPage('drying-rvo-01')
 	}else {
 		goToPage('drying-namd-01')
 	}
@@ -78,6 +80,8 @@ function goToVisionIndication(indication) {
 		goToPage('vision-dme-01')
 	}else if(indication === 'namd') {
 		goToPage('vision-namd-01')
+	}else if(indication === 'rvo') {
+		goToPage('vision-rvo-01')
 	}else {
 		goToPage('vision-namd-01')
 	}

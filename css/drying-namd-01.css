@@ -1,3 +1,13 @@
+.link-durability {
+    width: 8%;
+    height: 1.5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 84.8%;
+    left: 47%;
+    /* border: 1px solid red; */
+  }
+
 .dme-btn {
     position: absolute;
     top: 0;
