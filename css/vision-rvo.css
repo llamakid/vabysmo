@@ -7,6 +7,15 @@
     /* border: 1px solid white; */
 }
 
+.namd-btn {
+    position: absolute;
+    top: 0;
+    right: 18%;
+    width: 9%;
+    height: 4.5%;
+    /* border: 1px solid white; */
+}
+
 .rvo-btn {
     position: absolute;
     top: 0;
@@ -16,14 +25,21 @@
     /* border: 1px solid white; */
 }
 
-.link {
-    width: 8%;
-    height: 1.5%;
-    box-sizing: border-box;
+
+.content-btn {
     position: absolute;
-    top: 85%;
-    left: 45%;
-    /* border: 1px solid white; */
+}
+
+.btn-study-design {
+    top: 70.5%;
+    right: 5%;
+    width: 12.5%;
+}
+
+.btn-treat-extend {
+    top: 70.5%;
+    right: 1%;
+    width: 12.5%;
 }
 
 .bgimg {
@@ -33,23 +49,12 @@
     height: 100%;
 }
 
-.content-btn {
-    position: absolute;
-    top: 76%;
-    /* border: 1px solid red; */
-}
-
-.btn-study-design {
-    right: 5%;
-    width: 13.08%;
-}
-
 .graph-label-container {
     position: absolute;
-    top: 55%;
-    left: 41.5%;
-    width: 36%;
-    height: 4.8%;
+    top: 53%;
+    left: 56.5%;
+    width: 18.3%;
+    height: 3.65%;
     overflow: hidden;
     /* border: 1px solid white; */
 }
