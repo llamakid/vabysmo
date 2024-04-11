@@ -10,7 +10,7 @@
 
 .dme_case_1_week_0_img {
     width: 50%;
-    height: 45%;
+    height: 45.5%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -18,7 +18,7 @@
 
 .dme_case_1_week_12_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -26,7 +26,7 @@
 
 .dme_case_1_week_32_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -34,7 +34,7 @@
 
 .dme_case_1_week_96_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -42,7 +42,7 @@
 
 .dme_case_2_week_0_img {
     width: 50%;
-    height: 45%;
+    height: 45.5%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -50,7 +50,7 @@
 
 .dme_case_2_week_12_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -58,7 +58,7 @@
 
 .dme_case_2_week_44_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     position: absolute;
     top: 16.8%;
     left: 27%;
@@ -66,7 +66,7 @@
 
 .dme_case_2_week_96_img {
     width: 50%;
-    height: 46.8%;
+    height: 47.3%;
     /* width: 1303px;
     height: 604.5px; */
     position: absolute;
@@ -155,19 +155,19 @@
 }
 
 .patient_case_1_btn {
-    width: 13.8%;
-    height: 3.4%;
+    width: 12%;
+    height: 3%;
     box-sizing: border-box;
     position: absolute;
-    top: 69%;
-    left: 66%;
+    top: 67%;
+    left: 68%;
 }
 
 .patient_case_2_btn {
-    width: 13.8%;
-    height: 3.4%;
+    width: 12%;
+    height: 3%;
     box-sizing: border-box;
     position: absolute;
-    top: 69%;
+    top: 67%;
     left: 81%;
 }
