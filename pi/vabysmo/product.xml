@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="spl.xsl" type="text/xsl"?>
 <document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
-   <id root="6815251d-7f8d-4b04-8fc5-b1ec85a617ca"/>
+   <id root="a51af5bb-65e7-4797-9166-38da58e2613c"/>
    <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
    <title>These highlights do not include all the information needed to use VABYSMO safely and effectively. See full prescribing information for VABYSMO.<br/>
       <br/> VABYSMO<sup>®</sup> (faricimab-svoa) injection, for intravitreal use<br/> Initial U.S. Approval:  2022</title>
-   <effectiveTime value="20231031"/>
+   <effectiveTime value="20240715"/>
    <setId root="04cc9ef7-c02a-4e92-a655-0062674e8487"/>
-   <versionNumber value="6"/>
+   <versionNumber value="7"/>
    <author>
       <time/>
       <assignedEntity>
@@ -144,9 +144,9 @@
       <structuredBody>
          <component>
             <section ID="DLDE">
-               <id root="4d90c06d-409f-44bb-a1f7-799a08de5aee"/>
+               <id root="65956fcd-30c2-434e-97d4-7196ad492967"/>
                <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <subject>
                   <manufacturedProduct>
                      <manufacturedProduct>
@@ -267,7 +267,7 @@
                            <subjectOf>
                               <characteristic>
                                  <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
-                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 1: CONVENIENCE KIT OF CO-PACKAGE" xsi:type="CV"/>
                               </characteristic>
                            </subjectOf>
                         </asContent>
@@ -302,7 +302,77 @@
                            <subjectOf>
                               <characteristic>
                                  <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
-                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 1: CONVENIENCE KIT OF CO-PACKAGE" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.05" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50242-096-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240703"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 1: CONVENIENCE KIT OF CO-PACKAGE" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.05" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50242-096-45" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C96974" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240703"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 1: CONVENIENCE KIT OF CO-PACKAGE" xsi:type="CV"/>
                               </characteristic>
                            </subjectOf>
                         </asContent>
@@ -340,27 +410,35 @@
          </component>
          <component>
             <section>
-               <id root="e48e1192-1906-40c9-82ad-a5852384ce94"/>
+               <id root="8582920c-8562-4e85-be07-4720520bf04f"/>
                <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
                         <table width="100%" styleCode="Noautorules">
-                           <col width="90%" align="left" valign="top"/>
-                           <col width="10%" align="right" valign="top"/>
+                           <col width="85%" align="left" valign="top"/>
+                           <col width="15%" align="right" valign="top"/>
                            <tbody>
                               <tr>
                                  <td>Indications and Usage, Macular Edema Following Retinal Vein Occlusion (RVO) (<linkHtml href="#S1.3">1.3</linkHtml>)</td>
                                  <td>10/2023</td>
                               </tr>
                               <tr>
-                                 <td>Dosage and Administration, Diabetic Macular Edema (<linkHtml href="#S2.3">2.3</linkHtml>)</td>
-                                 <td>1/2023</td>
+                                 <td>Dosage and Administration, General Dosing Information (<linkHtml href="#S2.1">2.1</linkHtml>)</td>
+                                 <td>7/2024</td>
                               </tr>
                               <tr>
-                                 <td>Dosage and Administration, Macular Edema Following Retinal Vein Occlusion (<linkHtml href="#S2.4">2.4</linkHtml>)</td>
+                                 <td>Dosage and Administration, Macular Edema Following  Retinal Vein Occlusion (<linkHtml href="#S2.4">2.4</linkHtml>)</td>
                                  <td>10/2023</td>
+                              </tr>
+                              <tr>
+                                 <td>Dosage and Administration, Preparation for Administration - Prefilled Syringe  (<linkHtml href="#S2.5">2.5</linkHtml>)</td>
+                                 <td>7/2024</td>
+                              </tr>
+                              <tr>
+                                 <td>Dosage and Administration, Injection Procedure (<linkHtml href="#S2.7">2.7</linkHtml>)</td>
+                                 <td>7/2024</td>
                               </tr>
                               <tr>
                                  <td>Warnings and Precautions, Retinal Vasculitis and/or Retinal Vascular Occlusion (<linkHtml href="#S5.4">5.4</linkHtml>)</td>
@@ -375,13 +453,13 @@
          </component>
          <component>
             <section ID="S1">
-               <id root="74d8d4cf-4559-48c6-b271-b95bb846567c"/>
+               <id root="5ebfd14d-8424-4463-9c64-7f2d2fb7da35"/>
                <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
                <title>1 INDICATIONS AND USAGE</title>
                <text>
                   <paragraph>VABYSMO is a vascular endothelial growth factor (VEGF) and angiopoietin 2 (Ang-2) inhibitor indicated for the treatment of patients with:</paragraph>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
@@ -396,36 +474,47 @@
                </excerpt>
                <component>
                   <section ID="S1.1">
-                     <id root="2216f340-2e27-430b-8b8e-721c07b4cccc"/>
+                     <id root="e87df6b3-6acc-45a5-b084-ffbb789d833d"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>1.1	Neovascular (wet) Age-Related Macular Degeneration (nAMD)</title>
-                     <effectiveTime value="20231031"/>
+                     <text>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S1.2">
-                     <id root="1f65d9a7-8c0e-4ac8-b7e8-d90d89331ff6"/>
+                     <id root="e5e8ea51-8ba1-4dde-9a72-34379af3b40c"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>1.2	Diabetic Macular Edema (DME)</title>
-                     <effectiveTime value="20231031"/>
+                     <text>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S1.3">
-                     <id root="0d0d5f64-ad5d-4d9f-85a6-fa461005ea11"/>
+                     <id root="31fce718-7d07-433d-b05d-c4d2893f3f47"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>1.3     Macular Edema Following Retinal Vein Occlusion (RVO)</title>
-                     <effectiveTime value="20231031"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S2">
-               <id root="b5f70392-99b1-4e95-9799-ac862f39cf42"/>
+               <id root="e63cf40e-cf40-4006-941d-acbbd1f44884"/>
                <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
                <title>2 DOSAGE AND ADMINISTRATION</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
@@ -437,7 +526,8 @@
                                  <item>The recommended dose for VABYSMO is 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 ± 7 days, monthly) for the first 4 doses, followed by optical coherence tomography and visual acuity evaluations 8 and 12 weeks later to inform whether to give a 6 mg dose via intravitreal injection on one of the following three regimens: 1) Weeks 28 and 44; 2) Weeks 24, 36 and 48; or 3) Weeks 20, 28, 36 and 44. Although additional efficacy was not demonstrated in most patients when VABYSMO was dosed every 4 weeks compared to every 8 weeks, some patients may need every 4 week (monthly) dosing after the first 4 doses. Patients should be assessed regularly. (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
                               </list>
                            </item>
-                           <item>D<content styleCode="underline">iabetic Macular Edema (DME)</content>
+                           <item>
+                              <content styleCode="underline">Diabetic Macular Edema (DME)</content>
                               <list listType="unordered" styleCode="Circle">
                                  <item>VABYSMO is recommended to be dosed by following one of these two dose regimens: 1) 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 days ± 7 days, monthly) for at least 4 doses. If after at least 4 doses, resolution of edema based on the central subfield thickness (CST) of the macula as measured by optical coherence tomography is achieved, then the interval of dosing may be modified by extensions of up to 4 week interval increments or reductions of up to 8 week interval increments based on CST and visual acuity evaluations; or 2) 6 mg dose of VABYSMO can be administered every 4 weeks for the first 6 doses, followed by 6 mg dose via intravitreal injection at intervals of every 8 weeks (2 months). Although additional efficacy was not demonstrated in most patients when VABYSMO was dosed every 4 weeks compared to every 8 weeks, some patients may need every 4 week (monthly) dosing after the first 4 doses. Patients should be assessed regularly. (<linkHtml href="#S2.3">2.3</linkHtml>)</item>
                               </list>
@@ -454,42 +544,56 @@
                </excerpt>
                <component>
                   <section ID="S2.1">
-                     <id root="cc800a20-25eb-4924-afb0-032b5ca637b2"/>
+                     <id root="bcc7408f-8e9c-435c-a2c0-7024a3961444"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>2.1	General Dosing Information</title>
                      <text>
-                        <paragraph>For intravitreal injection. VABYSMO must be administered by a qualified physician. Each vial should only be used for the treatment of a single eye.</paragraph>
+                        <paragraph>For intravitreal injection. VABYSMO must be administered by a qualified physician.</paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">VABYSMO is available as:</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>
+                              <content styleCode="xmChange">Prefilled syringe: A sterile injection filter needle (30-gauge × ½-inch, Extra Thin Wall) with an integrated filter in the hub is provided. Each prefilled syringe should only be used for the treatment of a single eye.</content>
+                           </item>
+                           <item>
+                              <content styleCode="xmChange">Vial: A sterile 5-micron, blunt transfer filter needle (18-gauge × 1½-inch) is provided. Each vial should only be used for the treatment of a single eye.</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="xmChange">
+                              <content styleCode="italics">[see <linkHtml href="#S16">How Supplied/Storage and Handling (16)</linkHtml>]</content>
+                           </content>
+                        </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S2.2">
-                     <id root="5ba106cf-7f56-413f-a04d-acabfedb68ce"/>
+                     <id root="d79968eb-27cc-4265-bbb7-b797c6a27450"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>2.2	Neovascular (wet) Age-Related Macular Degeneration (nAMD)</title>
                      <text>
                         <paragraph>The recommended dose for VABYSMO is 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 ± 7 days, monthly) for the first 4 doses, followed by optical coherence tomography and visual acuity evaluations 8 and 12 weeks later to inform whether to give a 6 mg dose via intravitreal injection on one of the following three regimens: 1) Weeks 28 and 44; 2) Weeks 24, 36 and 48; or 3) Weeks 20, 28, 36 and 44. Although additional efficacy was not demonstrated in most patients when VABYSMO was dosed every 4 weeks compared to every 8 weeks, some patients may need every 4 week (monthly) dosing after the first 4 doses. Patients should be assessed regularly.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S2.3">
-                     <id root="858806ea-e163-4323-b75a-d640ee4a9ecb"/>
+                     <id root="bbf2e6b0-af66-4658-ac6c-a735b90e83c1"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>2.3	Diabetic Macular Edema (DME)</title>
                      <text>
-                        <paragraph>
-                           <content styleCode="xmChange">VABYSMO is recommended to be dosed by following one of these two dose regimens: 1) 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 days ± 7 days, monthly) for at least 4 doses. If after at least 4 doses, resolution of edema based on the central subfield thickness (CST) of the macula as measured by optical coherence tomography is achieved, then the interval of dosing may be modified by extensions of up to 4 week interval increments or reductions of up to 8 week interval increments based on CST and visual acuity evaluations; or  2) 6 mg dose of VABYSMO can be administered every 4 weeks for the first 6 doses, followed by 6 mg dose via intravitreal injection at intervals of every 8 weeks (2 months). Although additional efficacy was not demonstrated in most patients when VABYSMO was dosed every 4 weeks compared to every 8 weeks, some patients may need every 4 week (monthly) dosing after the first 4 doses. Patients should be assessed regularly.</content>
-                        </paragraph>
+                        <paragraph>VABYSMO is recommended to be dosed by following one of these two dose regimens: 1) 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 days ± 7 days, monthly) for at least 4 doses. If after at least 4 doses, resolution of edema based on the central subfield thickness (CST) of the macula as measured by optical coherence tomography is achieved, then the interval of dosing may be modified by extensions of up to 4 week interval increments or reductions of up to 8 week interval increments based on CST and visual acuity evaluations; or  2) 6 mg dose of VABYSMO can be administered every 4 weeks for the first 6 doses, followed by 6 mg dose via intravitreal injection at intervals of every 8 weeks (2 months). Although additional efficacy was not demonstrated in most patients when VABYSMO was dosed every 4 weeks compared to every 8 weeks, some patients may need every 4 week (monthly) dosing after the first 4 doses. Patients should be assessed regularly.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S2.4">
-                     <id root="0eae84e3-44c0-4f5b-a9b3-18be709e05dc"/>
+                     <id root="7f283cd7-861a-460a-bb14-f45eb88a394d"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>2.4     Macular Edema Following Retinal Vein Occlusion (RVO) </title>
                      <text>
@@ -497,328 +601,434 @@
                            <content styleCode="xmChange">The recommended dose for VABYSMO is 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 ± 7 days, monthly) for 6 months.</content>
                         </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S2.5">
-                     <id root="033def68-cf28-459e-8d3d-a358f40564fc"/>
+                     <id root="cff8f850-92c2-425e-af71-0669fc2f27a4"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
-                     <title>2.5	Preparation for Administration</title>
+                     <title>2.5 	Preparation for Administration - Prefilled Syringe</title>
                      <text>
-                        <table width="100%" styleCode="Noautorules">
-                           <col width="50%" align="left" valign="top"/>
-                           <col width="50%" align="left" valign="top"/>
+                        <table width="90%" styleCode="Noautorules">
+                           <col width="7%" align="left" valign="top"/>
+                           <col width="93%" align="left" valign="top"/>
                            <tbody>
                               <tr styleCode="Botrule">
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>1.</caption> Before you start:</item>
-                                    </list>
+                                    <content styleCode="bold">
+                                       <content styleCode="xmChange">Before you start</content>
+                                    </content>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2" styleCode="Toprule">
-                                    <list styleCode="disc" listType="unordered">
-                                       <item>Read all the instructions carefully before using VABYSMO.</item>
-                                       <item>The VABYSMO kit includes a glass vial and transfer filter needle. The glass vial is for a single dose only. The filter needle is for single use only.</item>
-                                       <item>VABYSMO should be stored refrigerated at temperatures between 2ºC to 8ºC (36ºF to 46ºF). <content styleCode="bold">Do not</content> freeze. <content styleCode="bold">Do not</content> shake.</item>
-                                       <item>Allow VABYSMO to reach room temperature, 20°C to 25°C (68°F to 77°F) before proceeding with the administration. The VABYSMO vial may be kept at room temperature for up to 24 hours.  Keep the vial in the original carton to protect from light.</item>
-                                       <item>VABYSMO should be inspected visually for particulate matter and discoloration prior to administration. VABYSMO is a clear to opalescent and colorless to brownish-yellow liquid solution.<br/>
-                                          <content styleCode="bold">Do not</content> use if particulates, cloudiness, or discoloration are visible.<br/>
-                                          <content styleCode="bold">Do not</content> use if the packaging, vial and/or transfer filter needle are expired, damaged, or have been tampered with (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_A">Figure A</linkHtml>
-                                          </content>).</item>
-                                       <item>Use aseptic technique to carry out the preparation of the intravitreal injection.</item>
-                                    </list>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM1"/>
+                                    </content>
                                  </td>
+                                 <td>Read all the instructions carefully before using VABYSMO.</td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2" align="center">
-                                    <renderMultiMedia referencedObject="MM1" ID="FIGURE_A"/>
-                                    <br/> Figure A</td>
-                              </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>2.</caption>Gather the following supplies:<list styleCode="disc" listType="unordered">
-                                             <item>One VABYSMO vial (included)</item>
-                                             <item>One sterile 5-micron blunt transfer filter needle 18-gauge × 1½ inch (included)</item>
-                                             <item>One sterile 1 mL Luer lock syringe with a 0.05 mL dose mark (<content styleCode="bold">not included</content>)</item>
-                                             <item>One sterile injection needle 30-gauge × ½ inch (<content styleCode="bold">not included</content>)<list listType="unordered">
-                                                   <item>
-                                                      <caption> </caption>
-                                                      <content styleCode="bold">Note</content> that a 30-gauge injection needle is recommended to avoid increased injection forces that could be experienced with smaller diameter needles.</item>
-                                                </list>
-                                             </item>
-                                             <item>Alcohol swab (<content styleCode="bold">not included</content>).</item>
-                                          </list>
-                                       </item>
-                                    </list>
+                                    <content styleCode="xmChange">The VABYSMO carton includes:</content>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM2"/>
+                                    </content>
+                                 </td>
+                                 <td>A sterile prefilled syringe in a sealed tray. The prefilled syringe is for treatment of a single eye.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM3"/>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Botrule">A sterile  injection filter needle (30-gauge × ½ inch, Extra Thin Wall) with an integrated filter in the hub. The injection filter needle is for single use only.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td styleCode="Botrule">
+                                    <content styleCode="bold">Only use the provided injection filter needle for the administration.</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM4"/>
+                                    </content>
+                                 </td>
+                                 <td>VABYSMO should be refrigerated at temperatures between 2°C to 8°C (36°F to 46°F).<br/>
+                                    <content styleCode="bold">Do not</content> freeze.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM5"/>
+                                    </content>
+                                 </td>
+                                 <td>Allow VABYSMO to reach room temperature, 20°C to 25°C (68°F to 77°F) before proceeding with the administration.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM6"/>
+                                    </content>
+                                 </td>
+                                 <td>Prior to use, keep the sealed tray in the original carton to <content styleCode="bold">protect the prefilled syringe from light</content>. The prefilled syringe may be kept at room temperature in the original carton for up to <content styleCode="bold">24 hours</content>.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <renderMultiMedia referencedObject="MM7"/>
+                                    </content>
+                                 </td>
+                                 <td>VABYSMO should be inspected visually prior to administration.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> use if the carton seals have been tampered with.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> use if the packaging, prefilled syringe, injection filter needle is expired, damaged, or have been tampered with.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> use if the injection filter needle is missing.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> remove the finger grip from the syringe.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> use if the syringe cap is detached from the Luer lock. </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not </content>use if particulates, cloudiness, or discoloration are visible. VABYSMO is a clear to opalescent and colorless to brownish-yellow liquid solution.</td>
+                              </tr>
+                              <tr>
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>3.</caption> To ensure all liquid settles at the bottom of the vial, place the vial upright on a flat surface (for about 1 minute) after removal from packaging (see <linkHtml href="#FIGURE_B">Figure B</linkHtml>). Gently tap the vial with your finger (see <linkHtml href="#FIGURE_C">Figure C</linkHtml>), as liquid may stick to the top of the vial.</item>
-                                    </list>
+                                    <content styleCode="xmChange">Prefilled Syringe Description</content>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td align="center">
-                                    <renderMultiMedia referencedObject="MM2" ID="FIGURE_B"/>
-                                    <br/> Figure B</td>
-                                 <td align="center">
-                                    <renderMultiMedia referencedObject="MM3" ID="FIGURE_C"/>
-                                    <br/> Figure C</td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>4.</caption> Remove the flip-off cap from the vial (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_D">Figure D</linkHtml>
-                                          </content>) and wipe the vial septum with an alcohol swab (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_E">Figure E</linkHtml>
-                                          </content>).</item>
-                                    </list>
-                                 </td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td align="center">
-                                    <renderMultiMedia referencedObject="MM4" ID="FIGURE_D"/>
-                                    <br/> Figure D</td>
-                                 <td align="center">
-                                    <renderMultiMedia referencedObject="MM5" ID="FIGURE_E"/>
-                                    <br/> Figure E</td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>5.</caption> Aseptically and firmly attach the included 18-gauge × 1½ inch transfer filter needle onto a 1 mL Luer lock syringe (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_F">Figure F</linkHtml>
-                                          </content>).</item>
-                                    </list>
-                                 </td>
-                              </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
                                  <td align="center" colspan="2">
-                                    <renderMultiMedia referencedObject="MM6" ID="FIGURE_F"/>
-                                    <br/> Figure F</td>
+                                    <renderMultiMedia referencedObject="MM8"/>
+                                 </td>
                               </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">Figure A</td>
+                              </tr>
+                              <tr>
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>6.</caption> Using aseptic technique, push the transfer filter needle into the center of the vial septum (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_G">Figure G</linkHtml>
-                                          </content>), push it all the way in, then tilt the vial slightly so that the needle touches the bottom edge of the vial (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_H">Figure H</linkHtml>
-                                          </content>).</item>
-                                    </list>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">Note: the dose must be set to the 0.05 mL dose mark.</content>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="xmChange">Use aseptic technique to carry out the following preparation steps:</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">Open Tray and Remove Syringe Cap</content>
+                                    </content>
                                  </td>
                               </tr>
                               <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">1</content>
+                                    </content>
+                                 </td>
+                                 <td>Peel the lid off the syringe tray and aseptically remove the prefilled syringe. </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">2</content>
+                                    </content>
+                                 </td>
+                                 <td>Hold the syringe by the white collar; snap off the syringe cap (<content styleCode="bold">see <linkHtml href="#figb">Figure B</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Do not</content> twist off the cap.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
                                  <td align="center">
-                                    <renderMultiMedia referencedObject="MM7" ID="FIGURE_G"/>
-                                    <br/> Figure G</td>
+                                    <paragraph ID="figb">
+                                       <renderMultiMedia referencedObject="MM9"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">Figure B</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">Attach Injection Filter Needle</content>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">3</content>
+                                    </content>
+                                 </td>
+                                 <td>Aseptically remove the provided injection filter needle from its packaging.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">4</content>
+                                    </content>
+                                 </td>
+                                 <td>Aseptically and firmly attach the injection filter needle onto the syringe Luer lock (<content styleCode="bold">see <linkHtml href="#figc">Figure C</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
                                  <td align="center">
-                                    <renderMultiMedia referencedObject="MM8" ID="FIGURE_H"/>
-                                    <br/> Figure H</td>
+                                    <paragraph ID="figc">
+                                       <renderMultiMedia referencedObject="MM10"/>
+                                    </paragraph>
+                                 </td>
                               </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">Figure C</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">5</content>
+                                    </content>
+                                 </td>
+                                 <td>Carefully remove the needle cap by pulling it straight off.</td>
+                              </tr>
+                              <tr>
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>7.</caption> Hold the vial slightly inclined and <content styleCode="bold">slowly</content> withdraw all the liquid from the vial (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_I">Figure I</linkHtml>
-                                          </content>). Keep the bevel of the transfer filter needle submerged in the liquid, to avoid introduction of air.</item>
-                                    </list>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">Dislodge Air Bubbles</content>
+                                    </content>
                                  </td>
                               </tr>
                               <tr styleCode="Botrule">
-                                 <td align="center" colspan="2">
-                                    <renderMultiMedia referencedObject="MM9" ID="FIGURE_I"/>
-                                    <br/> Figure I</td>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">6</content>
+                                    </content>
+                                 </td>
+                                 <td>Hold the syringe with the injection filter needle pointing up. Check the syringe for air bubbles. </td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>8.</caption> Ensure that the plunger rod is drawn sufficiently back when emptying the vial, in order to completely empty the transfer filter needle (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_I">Figure I</linkHtml>
-                                          </content>).</item>
-                                    </list>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">7</content>
+                                    </content>
+                                 </td>
+                                 <td>If there are any air bubbles, gently tap the syringe with your finger until the bubbles rise to the top (<content styleCode="bold">see <linkHtml href="#figd">Figure D</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph ID="figd">
+                                       <renderMultiMedia referencedObject="MM11"/>
+                                    </paragraph>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">Figure D</td>
+                              </tr>
+                              <tr>
                                  <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>9.</caption> Disconnect the transfer filter needle from the syringe and dispose of it in accordance with local regulations.<list listType="unordered">
-                                             <item>
-                                                <caption> </caption>
-                                                <content styleCode="bold">Do not use the transfer filter needle for the intravitreal injection.</content>
-                                             </item>
-                                          </list>
-                                       </item>
-                                    </list>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">Expel Air and Adjust the Dose</content>
+                                    </content>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>10.</caption> Aseptically and firmly attach a 30-gauge × ½ inch injection needle onto the Luer lock syringe (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_J">Figure J</linkHtml>
-                                          </content>).</item>
-                                    </list>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">8</content>
+                                    </content>
+                                 </td>
+                                 <td>Hold the syringe at eye level and <content styleCode="bold">slowly</content> push the plunger rod until the <content styleCode="bold">lower edge of the rubber stopper's dome</content> is aligned with the 0.05 mL dose mark (<content styleCode="bold">see <linkHtml href="#fige">Figure E</linkHtml>
+                                    </content>). This will expel the air and the excess solution and set the dose to 0.05 mL.</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td>Ensure that the injection is given <content styleCode="bold">immediately</content> after preparation of the dose.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph ID="fige">
+                                       <renderMultiMedia referencedObject="MM12"/>
+                                    </paragraph>
                                  </td>
                               </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2" align="center">
-                                    <renderMultiMedia referencedObject="MM10" ID="FIGURE_J"/>
-                                    <br/> Figure J</td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>11.</caption> Carefully remove the plastic needle shield from the needle by pulling it straight off.</item>
-                                    </list>
+                              <tr>
+                                 <td>
+                                    <content styleCode="xmChange"/>
                                  </td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>12.</caption> To check for air bubbles, hold the syringe with the needle pointing up. If there are any air bubbles, gently tap the syringe with your finger until the bubbles rise to the top (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_K">Figure K</linkHtml>
-                                          </content>).</item>
-                                    </list>
-                                 </td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2" align="center">
-                                    <renderMultiMedia referencedObject="MM11" ID="FIGURE_K"/>
-                                    <br/> Figure K</td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2">
-                                    <list styleCode="arabic" listType="ordered">
-                                       <item>
-                                          <caption>13.</caption> Carefully expel the air from the syringe and needle, and <content styleCode="bold">slowly</content> depress the plunger to align the rubber stopper tip to the 0.05 mL dose mark. The syringe is ready for the injection (see <content styleCode="bold">
-                                             <linkHtml href="#FIGURE_L">Figure L</linkHtml>
-                                          </content>). Ensure that the injection is given <content styleCode="bold">immediately</content> after preparation of the dose.</item>
-                                    </list>
-                                 </td>
-                              </tr>
-                              <tr styleCode="Botrule">
-                                 <td colspan="2" align="center">
-                                    <renderMultiMedia referencedObject="MM12" ID="FIGURE_L"/>
-                                    <br/> Figure L</td>
+                                 <td align="center">Figure E</td>
                               </tr>
                            </tbody>
                         </table>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
                         <observationMedia ID="MM1">
-                           <text>Figure A</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-01.jpg"/>
+                              <reference value="vabysmo-01.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM2">
-                           <text>Figure B</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-02.jpg"/>
+                              <reference value="vabysmo-02.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM3">
-                           <text>Figure C</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-03.jpg"/>
+                              <reference value="vabysmo-03.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM4">
-                           <text>Figure D</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-04.jpg"/>
+                              <reference value="vabysmo-04.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM5">
-                           <text>Figure E</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-05.jpg"/>
+                              <reference value="vabysmo-05.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM6">
-                           <text>Figure F</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-06.jpg"/>
+                              <reference value="vabysmo-06.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM7">
-                           <text>Figure G</text>
+                           <text>Image</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-07.jpg"/>
+                              <reference value="vabysmo-07.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM8">
-                           <text>Figure H</text>
+                           <text>Figure A</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-08.jpg"/>
+                              <reference value="vabysmo-08.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM9">
-                           <text>Figure I</text>
+                           <text>Figure B</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-09.jpg"/>
+                              <reference value="vabysmo-09.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM10">
-                           <text>Figure J</text>
+                           <text>Figure C</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-10.jpg"/>
+                              <reference value="vabysmo-10.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM11">
-                           <text>Figure K</text>
+                           <text>Figure D</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-11.jpg"/>
+                              <reference value="vabysmo-11.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
                         <observationMedia ID="MM12">
-                           <text>Figure L</text>
+                           <text>Figure E</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-12.jpg"/>
+                              <reference value="vabysmo-12.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
@@ -826,32 +1036,485 @@
                </component>
                <component>
                   <section ID="S2.6">
-                     <id root="d3fc6475-f2be-413b-a677-2a56d55891c5"/>
+                     <id root="98314b4c-b534-4deb-a2b2-172ddfa06557"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
-                     <title>2.6	Injection Procedure</title>
+                     <title>2.6	Preparation for Administration - Vial</title>
                      <text>
-                        <paragraph>The intravitreal injection procedure must be carried out under aseptic conditions, which includes the use of surgical hand disinfection, sterile gloves, a sterile drape and a sterile eyelid speculum (or equivalent), and the availability of sterile paracentesis equipment (if required). Adequate anesthesia and a broad-spectrum microbicide should be administered prior to the injection. Inject slowly until the rubber stopper reaches the end of the syringe to deliver the volume of 0.05 mL. Confirm delivery of the full dose by checking that the rubber stopper has reached the end of the syringe barrel.</paragraph>
-                        <paragraph>Any unused medicinal product or waste material should be disposed of in accordance with local regulations.</paragraph>
-                        <paragraph>Immediately following the intravitreal injection, patients should be monitored for elevation in intraocular pressure. Appropriate monitoring may consist of a check for perfusion of the optic nerve head or tonometry. If required, a sterile paracentesis needle should be available. Following intravitreal injection, patients should be instructed to report any symptoms suggestive of endophthalmitis or retinal detachment (e.g., vision loss, eye pain, redness of the eye, photophobia, blurring of vision) without delay <content styleCode="italics">[see <linkHtml href="#S17">Patient Counseling Information (17)</linkHtml>]</content>. Each syringe should only be used for the treatment of a single eye. If the contralateral eye requires treatment, a new syringe should be used and the sterile field, syringe, gloves, drapes, eyelid speculum, filter, and injection needles should be changed before VABYSMO is administered to the other eye.</paragraph>
+                        <table width="90%" styleCode="Noautorules">
+                           <col width="7%" align="left" valign="top"/>
+                           <col width="43%" align="left" valign="top"/>
+                           <col width="50%" align="left" valign="top"/>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td colspan="3">
+                                    <content styleCode="bold">Before you start</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM13"/>
+                                 </td>
+                                 <td colspan="2">Read all the instructions carefully before using VABYSMO.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM14"/>
+                                 </td>
+                                 <td colspan="2">The VABYSMO kit includes a glass vial and transfer filter needle. The glass vial is for a single dose only. The filter needle is for treatment of a single eye.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM15"/>
+                                 </td>
+                                 <td colspan="2">VABYSMO should be stored refrigerated at temperatures between 2°C to 8°C (36°F to 46°F). <br/>
+                                    <content styleCode="bold">Do not</content> freeze.<br/>
+                                    <content styleCode="bold">Do not</content> shake.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM16"/>
+                                 </td>
+                                 <td colspan="2">Allow VABYSMO to reach room temperature, 20°C to 25°C (68°F to 77°F) before proceeding with the administration. Keep the vial in the original carton to <content styleCode="bold">protect from light.</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td colspan="2">The VABYSMO vial may be kept at room temperature for up to <content styleCode="bold">24 hours</content>.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM17"/>
+                                 </td>
+                                 <td colspan="2">The VABYSMO vial should be inspected visually for particulate matter and discoloration prior to administration. VABYSMO is a clear to opalescent and colorless to brownish-yellow liquid solution.<br/>
+                                    <content styleCode="bold">Do not</content> use if particulates, cloudiness, or discoloration are visible.<br/>
+                                    <content styleCode="bold">Do not</content> use if the packaging, vial and/or transfer filter needle are expired, damaged, or have been tampered with (see <content styleCode="bold">
+                                       <linkHtml href="#figf">Figure F</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="figf">
+                                       <renderMultiMedia referencedObject="MM18"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">Figure F</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Use aseptic technique to carry out the preparation of the intravitreal injection.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">1</content>
+                                 </td>
+                                 <td colspan="2">Gather the following supplies: 								<list listType="unordered" styleCode="disc">
+                                       <item>One VABYSMO vial (included)</item>
+                                       <item>One sterile 5-micron blunt transfer filter needle 18-gauge × 1½ inch (included)</item>
+                                       <item>One sterile 1 mL Luer lock syringe with a 0.05 mL dose mark (<content styleCode="bold">not included</content>) 									<list listType="unordered">
+                                             <item>
+                                                <caption> </caption>
+                                                <content styleCode="bold">Note</content> that a 30-gauge injection needle is recommended to avoid increased injection forces that could be experienced with smaller diameter needles.</item>
+                                          </list>
+                                       </item>
+                                       <item>One sterile injection needle 30-gauge × ½ inch (<content styleCode="bold">not included</content>)</item>
+                                       <item>Alcohol swab (<content styleCode="bold">not included</content>).</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">2</content>
+                                 </td>
+                                 <td colspan="2">To ensure all liquid settles at the bottom of the vial, place the vial upright on a flat surface (for about 1 minute) after removal from packaging (see <content styleCode="bold">
+                                       <linkHtml href="#figg">Figure G</linkHtml>
+                                    </content>). Gently tap the vial with your finger (see <content styleCode="bold">
+                                       <linkHtml href="#figh">Figure H</linkHtml>
+                                    </content>), as liquid may stick to the top of the vial. </td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center">
+                                    <paragraph ID="figg">
+                                       <renderMultiMedia referencedObject="MM19"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph ID="figh">
+                                       <renderMultiMedia referencedObject="MM20"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center">Figure G</td>
+                                 <td align="center">Figure H</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">3</content>
+                                 </td>
+                                 <td colspan="2">Remove the flip-off cap from the vial (see <content styleCode="bold">
+                                       <linkHtml href="#figi">Figure I</linkHtml>
+                                    </content>) and wipe the vial septum with an alcohol swab (see <content styleCode="bold">
+                                       <linkHtml href="#figj">Figure J</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center">
+                                    <paragraph ID="figi">
+                                       <renderMultiMedia referencedObject="MM21"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph ID="figj">
+                                       <renderMultiMedia referencedObject="MM22"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center">Figure I</td>
+                                 <td align="center">Figure J</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">4</content>
+                                 </td>
+                                 <td colspan="2">Aseptically and firmly attach the included 18-gauge × 1½ inch transfer filter needle onto a 1 mL Luer lock syringe (see <content styleCode="bold">
+                                       <linkHtml href="#figk">Figure K</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="figk">
+                                       <renderMultiMedia referencedObject="MM23"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center" colspan="2">Figure K</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">5</content>
+                                 </td>
+                                 <td colspan="2">Using aseptic technique, push the transfer filter needle into the center of the vial septum (see <content styleCode="bold">
+                                       <linkHtml href="#figl">Figure L</linkHtml>
+                                    </content>), push it all the way in, then tilt the vial slightly so that the needle touches the bottom edge of the vial (see <content styleCode="bold">
+                                       <linkHtml href="#figm">Figure M</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center">
+                                    <paragraph ID="figl">
+                                       <renderMultiMedia referencedObject="MM24"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph ID="figm">
+                                       <renderMultiMedia referencedObject="MM25"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center">Figure L</td>
+                                 <td align="center">Figure M</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">6</content>
+                                 </td>
+                                 <td colspan="2">Hold the vial slightly inclined and <content styleCode="bold">slowly</content> withdraw all the liquid from the vial (see <content styleCode="bold">
+                                       <linkHtml href="#fign">Figure N</linkHtml>
+                                    </content>). Keep the bevel of the transfer filter needle submerged in the liquid, to avoid introduction of air.</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="fign">
+                                       <renderMultiMedia referencedObject="MM26"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center" colspan="2">Figure N</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">7</content>
+                                 </td>
+                                 <td colspan="2">Ensure that the plunger rod is drawn sufficiently back when emptying the vial, in order to completely empty the transfer filter needle (see <content styleCode="bold">
+                                       <linkHtml href="#fign">Figure N</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">8</content>
+                                 </td>
+                                 <td colspan="2">Disconnect the transfer filter needle from the syringe and dispose of it in accordance with local regulations. </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td colspan="2">          <content styleCode="bold">Do not use the transfer filter needle for the intravitreal injection.</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">9</content>
+                                 </td>
+                                 <td colspan="2">Aseptically and firmly attach a 30-gauge × ½ inch injection needle onto the Luer lock syringe (see <content styleCode="bold">
+                                       <linkHtml href="#figo">Figure O</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="figo">
+                                       <renderMultiMedia referencedObject="MM27"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center" colspan="2">Figure O</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">10</content>
+                                 </td>
+                                 <td colspan="2">Carefully remove the plastic needle shield from the needle by pulling it straight off.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">11</content>
+                                 </td>
+                                 <td colspan="2">To check for air bubbles, hold the syringe with the needle pointing up. If there are any air bubbles, gently tap the syringe with your finger until the bubbles rise to the top (see <content styleCode="bold">
+                                       <linkHtml href="#figp">Figure P</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="figp">
+                                       <renderMultiMedia referencedObject="MM28"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td/>
+                                 <td align="center" colspan="2">Figure P</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">12</content>
+                                 </td>
+                                 <td colspan="2">Carefully expel the air from the syringe and needle, and <content styleCode="bold">slowly</content> depress the plunger to align the rubber stopper tip to the 0.05 mL dose mark. The syringe is ready for the injection (see <content styleCode="bold">
+                                       <linkHtml href="#figq">Figure Q</linkHtml>
+                                    </content>). Ensure that the injection is given <content styleCode="bold">immediately</content> after preparation of the dose.</td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">
+                                    <paragraph ID="figq">
+                                       <renderMultiMedia referencedObject="MM29"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td align="center" colspan="2">Figure Q</td>
+                              </tr>
+                           </tbody>
+                        </table>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
+                     <component>
+                        <observationMedia ID="MM13">
+                           <text>Image</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-13.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM14">
+                           <text>Image</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-14.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM15">
+                           <text>Image</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-15.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM16">
+                           <text>Image</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-16.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM17">
+                           <text>Image</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-17.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM18">
+                           <text>Figure F</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-18.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM19">
+                           <text>Figure G</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-19.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM20">
+                           <text>Figure H</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-20.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM21">
+                           <text>Figure I</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-21.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM22">
+                           <text>Figure J</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-22.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM23">
+                           <text>Figure K</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-23.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM24">
+                           <text>Figure L</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-24.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM25">
+                           <text>Figure M</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-25.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM26">
+                           <text>Figure N</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-26.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM27">
+                           <text>Figure O</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-27.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM28">
+                           <text>Figure P</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-28.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM29">
+                           <text>Figure Q</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vabysmo-29.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.7">
+                     <id root="4983aa01-5b54-4ffc-b16e-2144512f516a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.7 	Injection Procedure</title>
+                     <text>
+                        <paragraph>The intravitreal injection procedure must be carried out under aseptic conditions, which includes the use of surgical hand disinfection, sterile gloves, a sterile drape and a sterile eyelid speculum (or equivalent), and the availability of sterile paracentesis equipment (if required). Adequate anesthesia and a broad-spectrum microbicide should be administered prior to the injection.</paragraph>
+                        <paragraph>Inject <content styleCode="bold">slowly</content> until the rubber stopper reaches the end of the syringe to deliver the volume of 0.05 mL.</paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Note for the prefilled syringe: <content styleCode="bold">Do not</content> recap or detach the injection filter needle from the syringe.</content>
+                        </paragraph>
+                        <paragraph>Any unused drug product or waste material should be disposed of in accordance with local regulations.</paragraph>
+                        <paragraph>Immediately following the intravitreal injection, patients should be monitored for elevation in intraocular pressure. Appropriate monitoring may consist of a check for perfusion of the optic nerve head or tonometry. If required, a sterile paracentesis needle should be available. Following intravitreal injection, patients should be instructed to report any symptoms suggestive of endophthalmitis or retinal detachment (e.g., vision loss, eye pain, redness of the eye, photophobia, blurring of vision) without delay <content styleCode="italics">[see <linkHtml href="#S17">Patient Counseling Information (17)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Each syringe should only be used for the treatment of a single eye. If the contralateral eye requires treatment, a new syringe should be used and the sterile field, syringe, gloves, drapes, eyelid speculum, filter, and injection needles should be changed before VABYSMO is administered to the other eye.</paragraph>
+                     </text>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S3">
-               <id root="f7782c99-e8f3-4eea-beb5-d5c68ccd508c"/>
+               <id root="9b06e413-76ae-44a9-980f-cdfcf5e5546b"/>
                <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
                <title>3 DOSAGE FORMS AND STRENGTHS</title>
                <text>
-                  <paragraph>Injection: 120 mg/mL clear to opalescent, colorless to brownish-yellow solution in a single-dose vial.</paragraph>
+                  <paragraph>VABYSMO is a clear to opalescent, colorless to brownish-yellow solution available as:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Injection: 6 mg (0.05 mL of 120 mg/mL solution) in a single-dose prefilled glass syringe</item>
+                     <item>Injection: 6 mg (0.05 mL of 120 mg/mL solution) in a single-dose glass vial </item>
+                  </list>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
-                        <paragraph>Injection: 120 mg/mL solution in a single-dose vial (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Injection: 6 mg (0.05 mL of 120 mg/mL solution) in a single-dose prefilled syringe (<linkHtml href="#S3">3</linkHtml>)</item>
+                           <item>Injection: 6 mg (0.05 mL of 120 mg/mL solution) in a single-dose vial (<linkHtml href="#S3">3</linkHtml>)</item>
+                        </list>
                      </text>
                   </highlight>
                </excerpt>
@@ -859,10 +1522,10 @@
          </component>
          <component>
             <section ID="S4">
-               <id root="de715958-4444-4dbf-8bfa-ca8e7e6b2e0c"/>
+               <id root="e3402eaf-cc8e-4c86-b34c-a082ed5abf62"/>
                <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
                <title>4 CONTRAINDICATIONS</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
@@ -876,45 +1539,45 @@
                </excerpt>
                <component>
                   <section ID="S4.1">
-                     <id root="1480c3a1-9a11-4586-9924-83b57d99597a"/>
+                     <id root="b09be4e2-9f47-4e84-9b93-584fd430bb47"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>4.1	Ocular or Periocular Infections</title>
                      <text>
                         <paragraph>VABYSMO is contraindicated in patients with ocular or periocular infections.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S4.2">
-                     <id root="01f2e87b-869b-46c3-b94e-b07174968bb5"/>
+                     <id root="eb215153-0677-46ab-b4c9-00cb9db52126"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>4.2	Active Intraocular Inflammation</title>
                      <text>
                         <paragraph>VABYSMO is contraindicated in patients with active intraocular inflammation.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S4.3">
-                     <id root="71886303-d305-4ea9-992f-277cbf05760e"/>
+                     <id root="1dc73b30-abb2-48de-8b23-9a924da37063"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>4.3	Hypersensitivity</title>
                      <text>
                         <paragraph>VABYSMO is contraindicated in patients with known hypersensitivity to faricimab or any of the excipients in VABYSMO. Hypersensitivity reactions may manifest as rash, pruritus, urticaria, erythema, or severe intraocular inflammation.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S5">
-               <id root="2eecd2c2-a551-4456-b9ce-fd677a296bf1"/>
+               <id root="5caf4d43-2a12-43a1-a318-dce8f7112655"/>
                <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
                <title>5 WARNINGS AND PRECAUTIONS</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
@@ -928,31 +1591,31 @@
                </excerpt>
                <component>
                   <section ID="S5.1">
-                     <id root="b67bd956-0f50-4cab-9f7b-b17205c7ded1"/>
+                     <id root="ba5b8617-fcc0-41b9-a612-f9e828b8b1de"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>5.1	Endophthalmitis and Retinal Detachments</title>
                      <text>
                         <paragraph>Intravitreal injections, including Vabysmo, have been associated with endophthalmitis and retinal detachments <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>. Proper aseptic injection techniques must always be used when administering VABYSMO. Patients should be instructed to report any signs or symptoms suggestive of endophthalmitis or retinal detachment without delay, to permit prompt and appropriate management <content styleCode="italics">[see <linkHtml href="#S2.6">Dosage and Administration (2.6)</linkHtml> and <linkHtml href="#S17">Patient Counseling Information (17)</linkHtml>].</content>
                         </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S5.2">
-                     <id root="43951fd1-21e5-4e65-aa44-799fe14686cb"/>
+                     <id root="d03cce29-9afa-4518-8d68-086bfd6847b7"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>5.2	Increase in Intraocular Pressure</title>
                      <text>
                         <paragraph>Transient increases in intraocular pressure (IOP) have been seen within 60 minutes of intravitreal injection, including with VABYSMO <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>].</content> IOP and the perfusion of the optic nerve head should be monitored and managed appropriately <content styleCode="italics">[see <linkHtml href="#S2.6">Dosage and Administration (2.6)</linkHtml>].</content>
                         </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S5.3">
-                     <id root="c3ccc15b-daa1-49ef-8192-2f28a7ad19c3"/>
+                     <id root="ed5793c2-f1c7-4992-9e55-3a52ab4b90c3"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>5.3	Thromboembolic Events</title>
                      <text>
@@ -961,12 +1624,12 @@
                         <paragraph>The incidence of reported ATEs in the DME studies from baseline to week 100 was 5% (64 out of 1,262) in patients treated with VABYSMO compared with 5% (32 out of 625) in patients treated with aflibercept <content styleCode="italics">[see <linkHtml href="#S14.2">Clinical Studies (14.2)</linkHtml>]</content>.</paragraph>
                         <paragraph>The incidence of reported ATEs in the RVO studies during the first 6 months was 1.1% (7 out of 641) in patients treated with VABYSMO compared with 1.4% (9 out of 635) in patients treated with aflibercept <content styleCode="italics">[see <linkHtml href="#S14.3">Clinical Studies (14.3)</linkHtml>]</content>.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S5.4">
-                     <id root="8d0448f8-05d4-4512-970b-079e8c8ff01c"/>
+                     <id root="84ccb1bb-c5a0-4c3d-b2e7-da52f9e8942c"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>5.4	Retinal Vasculitis and/or Retinal Vascular Occlusion </title>
                      <text>
@@ -974,14 +1637,14 @@
                            <content styleCode="xmChange">Retinal vasculitis and/or retinal vascular occlusion, typically in the presence of intraocular inflammation, have been reported with the use of VABYSMO <content styleCode="italics">[see <linkHtml href="#S6.2">Adverse Reactions (6.2)</linkHtml>]</content>.  Discontinue treatment with VABYSMO in patients who develop these events. Patients should be instructed to report any change in vision without delay.</content>
                         </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S6">
-               <id root="bf5cb7e6-1d8c-4283-96a7-c24247ff4d9f"/>
+               <id root="5099ac8c-0dbc-4ab9-99dc-42f49fe900df"/>
                <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
                <title>6 ADVERSE REACTIONS</title>
                <text>
@@ -999,7 +1662,7 @@
                      </item>
                   </list>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <excerpt>
                   <highlight>
                      <text>
@@ -1013,13 +1676,13 @@
                </excerpt>
                <component>
                   <section ID="S6.1">
-                     <id root="4f4454ba-5617-4e92-acc1-0dc22baa6152"/>
+                     <id root="121a5bfe-f368-4e2e-8c32-85f800423a7b"/>
                      <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
                      <title>6.1 	Clinical Trials Experience</title>
                      <text>
                         <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in other clinical trials of the same or another drug and may not reflect the rates observed in practice.</paragraph>
                         <paragraph>The data described below reflect exposure to VABYSMO in 2,567 patients, which constituted the safety population in six Phase 3 studies <content styleCode="italics">[see <linkHtml href="#S14.1">Clinical Studies (14.1</linkHtml>, <linkHtml href="#S14.2">14.2</linkHtml>, <linkHtml href="#S14.3">14.3)</linkHtml>]</content>.</paragraph>
-                        <table width="80%">
+                        <table width="90%">
                            <caption>Table 1: Common Adverse Reactions (≥ 1%)</caption>
                            <col width="22%" align="left" valign="top"/>
                            <col width="13%" align="center" valign="top"/>
@@ -1030,13 +1693,12 @@
                            <col width="13%" align="center" valign="top"/>
                            <thead>
                               <tr styleCode="Botrule">
-                                 <th styleCode="Lrule Rrule">Adverse Reactions</th>
+                                 <th styleCode="Lrule Rrule" rowspan="2">Adverse Reactions</th>
                                  <th styleCode="Rrule" colspan="3">VABYSMO</th>
-                                 <th styleCode="Rrule" colspan="3">Active Control<br/> (aflibercept)</th>
+                                 <th styleCode="Rrule" colspan="3">Active Control (aflibercept)</th>
                               </tr>
                               <tr>
-                                 <th styleCode="Lrule Rrule"/>
-                                 <th styleCode="Rrule">AMD<br/>N=664</th>
+                                 <th styleCode="Rrule" align="center">AMD<br/>N=664</th>
                                  <th styleCode="Rrule">DME<br/>N=1,262</th>
                                  <th styleCode="Rrule">RVO<br/>N=641</th>
                                  <th styleCode="Rrule">AMD<br/>N=662</th>
@@ -1150,39 +1812,48 @@
                         </table>
                         <paragraph>Less common adverse reactions reported in &lt; 1% of the patients treated with VABYSMO were  corneal abrasion, eye pruritus, ocular hyperemia, blurred vision, sensation of foreign body, endophthalmitis, conjunctival hyperaemia, visual acuity reduced, visual acuity reduced transiently, vitreous hemorrhage, retinal tear and rhegmatogenous retinal detachment.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S6.2">
-                     <id root="f91e5d26-b096-4a55-a898-5f7ff7a74f13"/>
+                     <id root="6f748d5a-de10-4d9d-a2af-286ef21ba194"/>
                      <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
                      <title>6.2 Postmarketing Experience</title>
                      <text>
                         <paragraph>The following adverse reactions have been identified during postapproval use of VABYSMO. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
-                        <paragraph>
-                           <content styleCode="italics">Eye disorders</content>: retinal vasculitis with or without retinal vascular occlusion.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
+                     <component>
+                        <section>
+                           <id root="c3a87390-4b58-418d-9c59-f71e70d9ea6e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Eye disorders</content>: retinal vasculitis with or without retinal vascular occlusion.</paragraph>
+                           </text>
+                           <effectiveTime value="20240715"/>
+                        </section>
+                     </component>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S8">
-               <id root="6a846c8b-61f0-414d-9080-87f19452de2e"/>
+               <id root="d67e42ab-aea3-40aa-893a-80e46da2a557"/>
                <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
                <title>8 USE IN SPECIFIC POPULATIONS</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
                   <section ID="S8.1">
-                     <id root="b4bdae63-288b-4a77-bbcd-91b0baf99158"/>
+                     <id root="9c54c8b7-e590-46dc-acfe-9b2d576a2798"/>
                      <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
                      <title>8.1 Pregnancy</title>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
                         <section>
-                           <id root="00673c0e-e8db-4c82-98f0-035bc539c69a"/>
+                           <id root="082dd6dd-5e4a-4c8e-b304-47f60fd06d84"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1192,22 +1863,22 @@
                               <paragraph>Administration of VABYSMO to pregnant monkeys throughout the period of organogenesis resulted in an increased incidence of abortions at intravenous (IV) doses 158 times the human exposure (based on C<sub>max</sub>) of the maximum recommended human dose <content styleCode="italics">[see <linkHtml href="#ANIMAL_DATA">Animal Data</linkHtml>]</content>.  Based on the mechanism of action of VEGF and Ang-2 inhibitors, there is a potential risk to female reproductive capacity, and to embryo-fetal development. VABYSMO should not be used during pregnancy unless the potential benefit to the patient outweighs the potential risk to the fetus.</paragraph>
                               <paragraph>All pregnancies have a background risk of birth defect, loss, and other adverse outcomes. The background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects is 2%-4% and of miscarriage is 15%-20% of clinically recognized pregnancies.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                      <component>
                         <section>
-                           <id root="1ecaf6a7-0259-47b0-b478-517db60ccb73"/>
+                           <id root="0c1e5bef-47f9-4f42-9705-17eaf7c2d4df"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
                                  <content styleCode="underline">Data</content>
                               </paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                            <component>
                               <section ID="ANIMAL_DATA">
-                                 <id root="e97ca3a0-6c60-42a0-848d-4834476b160d"/>
+                                 <id root="377f2c23-2991-422b-bd0f-4f7e634fd039"/>
                                  <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                                  <text>
                                     <paragraph>
@@ -1215,7 +1886,7 @@
                                     </paragraph>
                                     <paragraph>An embryo fetal developmental toxicity study was performed on pregnant cynomolgus monkeys. Pregnant animals received 5 weekly IV injections of VABYSMO starting on day 20 of gestation at 1 or 3 mg/kg. A non-dose dependent increase in pregnancy loss (abortions) was observed at both doses evaluated. Serum exposure (C<sub>max</sub>) in pregnant monkeys at the low dose of 1 mg/kg was 158 times the human exposure at the maximum recommended intravitreal dose of 6 mg once every 4 weeks. A no observed adverse effect level (NOAEL) was not identified in this study.</paragraph>
                                  </text>
-                                 <effectiveTime value="20231031"/>
+                                 <effectiveTime value="20240715"/>
                               </section>
                            </component>
                         </section>
@@ -1223,14 +1894,14 @@
                   </section>
                </component>
                <component>
-                  <section ID="S8.2a">
-                     <id root="4fc5ea10-9e73-4156-9927-bff90a585dad"/>
+                  <section ID="S8.2">
+                     <id root="c95d92c4-000e-4c32-b994-7774b3ff838f"/>
                      <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
                      <title>8.2 Lactation</title>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
                         <section>
-                           <id root="d7f40e6c-e420-4db7-a68b-43e4f598ccbc"/>
+                           <id root="aa77a90c-15d3-4f00-b50b-a234c05d06fd"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1239,20 +1910,20 @@
                               <paragraph>There is no information regarding the presence of faricimab in human milk, the effects of the drug on the breastfed infant, or the effects of the drug on milk production. Many drugs are transferred in human milk with the potential for absorption and adverse reactions in the breastfed child.</paragraph>
                               <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for VABYSMO and any potential adverse effects on the breastfed child from VABYSMO.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                   </section>
                </component>
                <component>
-                  <section ID="S8.3a">
-                     <id root="bdee6169-1558-4e9e-b11c-a7a11e13b93e"/>
+                  <section ID="S8.3">
+                     <id root="7e5691bb-759d-46f3-b0c2-71fe406bf372"/>
                      <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
                      <title>8.3	Females and Males of Reproductive Potential</title>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
                         <section>
-                           <id root="3b994096-34a3-43dc-8580-d172d302bd56"/>
+                           <id root="bd3ab88c-d43a-4514-9534-7231c811d1ca"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1260,12 +1931,12 @@
                               </paragraph>
                               <paragraph>Females of reproductive potential are advised to use effective contraception prior to the initial dose, during treatment and for at least 3 months following the last dose of VABYSMO.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                      <component>
                         <section>
-                           <id root="17a83c0e-b3fa-49e8-8551-f2ea92508554"/>
+                           <id root="e9bed0d2-da11-43de-b84d-ba97c59bb3f7"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1273,84 +1944,84 @@
                               </paragraph>
                               <paragraph>No studies on the effects of faricimab on human fertility have been conducted and it is not known whether faricimab can affect reproduction capacity. Based on the mechanism of action, treatment with VABYSMO may pose a risk to reproductive capacity.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                   </section>
                </component>
                <component>
                   <section ID="S8.4">
-                     <id root="2a270dc2-868c-4b1f-b6c6-f18c82d26594"/>
+                     <id root="e8edebb1-4c54-42b8-97f5-5cf9a191ce48"/>
                      <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
                      <title>8.4	Pediatric Use</title>
                      <text>
                         <paragraph>The safety and efficacy of VABYSMO in pediatric patients have not been established.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S8.5">
-                     <id root="db7878ed-f0f8-4252-9f08-0f665b44e98f"/>
+                     <id root="977abbc8-177d-4ec2-87cc-20ab877b3a27"/>
                      <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
                      <title>8.5 Geriatric Use</title>
                      <text>
                         <paragraph>In the six clinical studies, approximately 58% (1,496/2,571) of patients randomized to treatment with VABYSMO were ≥ 65 years of age. No significant differences in efficacy or safety of faricimab were seen with increasing age in these studies. No dose adjustment is required in patients 65 years and above.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S11">
-               <id root="726058c8-701b-475f-b6e6-2bea6f0ecc5c"/>
+               <id root="4bcfe748-c960-4955-827b-9700ea1cb2a4"/>
                <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
                <title>11 DESCRIPTION</title>
                <text>
                   <paragraph>Faricimab-svoa is a humanized bispecific immunoglobulin G1 (IgG1) antibody that binds both vascular endothelial growth factor A (VEGF-A) and angiopoietin-2 (Ang-2). The fragment crystallizable (Fc) region of faricimab was engineered by selected point mutations to abolish binding interactions with Fcγ and FcRn receptors. Faricimab-svoa has a total molecular weight of approximately 149 kDa and is produced by recombinant DNA technology using mammalian Chinese Hamster Ovary (CHO) cell culture.</paragraph>
-                  <paragraph>VABYSMO (faricimab-svoa) injection is a sterile, clear to opalescent, colorless to brownish-yellow solution in a single-dose glass vial for intravitreal administration. Each single-dose vial is designed to deliver 0.05 mL (50 microliters) of solution containing 6 mg faricimab-svoa, L-histidine (155 mcg), L-methionine (52.2 mcg), polysorbate 20 (20 mcg), sodium chloride (73.1 mcg), D-sucrose (2.74 mg) and Water for Injection, adjusted to pH 5.5 with acetic acid. The product does not contain an anti-microbial preservative.</paragraph>
+                  <paragraph>VABYSMO (faricimab-svoa) injection is a sterile, clear to opalescent, colorless to brownish-yellow solution in a single-dose prefilled glass syringe or glass vial for intravitreal administration. Each single-dose prefilled syringe or single-dose vial is designed to deliver 0.05 mL (50 microliters) of solution containing 6 mg faricimab-svoa, L-histidine (155 mcg), L-methionine (52.2 mcg), polysorbate 20 (20 mcg), sodium chloride (73.1 mcg), D-sucrose (2.74 mg) and Water for Injection, adjusted to pH 5.5 with acetic acid. The product does not contain an anti-microbial preservative.</paragraph>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
             </section>
          </component>
          <component>
             <section ID="S12">
-               <id root="40534867-0d4c-4d7a-8e2a-49aba926f889"/>
+               <id root="707be95e-8d65-41c5-9074-ffe0011a5cf0"/>
                <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
                <title>12 CLINICAL PHARMACOLOGY</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
                   <section ID="S12.1">
-                     <id root="24915f2c-b9fe-437e-a97a-37e548dc3b35"/>
+                     <id root="cac5e2b3-5e06-49e3-8aae-ac77753b9728"/>
                      <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
                      <title>12.1	Mechanism of Action</title>
                      <text>
                         <paragraph>Faricimab is a humanized bispecific antibody that acts through inhibition of two pathways by binding to VEGF-A and Ang-2. By inhibiting VEGF-A, faricimab suppresses endothelial cell proliferation, neovascularization and vascular permeability. By inhibiting Ang-2, faricimab is thought to promote vascular stability and desensitize blood vessels to the effects of VEGF-A. Ang-2 levels are increased in some patients with nAMD, DME, and RVO. The contribution of Ang-2 inhibition to the treatment effect and clinical response for nAMD, DME, and RVO has yet to be established.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S12.2">
-                     <id root="f8a79180-23a3-4e55-b48a-39af8b025a58"/>
+                     <id root="5ad3538b-a88f-4cb1-b12b-1a2fc5e8dec7"/>
                      <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
                      <title>12.2 Pharmacodynamics</title>
                      <text>
                         <paragraph>Increased retinal thickness, assessed by optical coherence tomography (OCT), is associated with nAMD, DME and macular edema following RVO. Leakage of blood and fluid from choroidal neovascularization, assessed by fluorescein angiography, is associated with nAMD. Reductions in CST were observed across all treatment arms throughout the six Phase 3 studies in nAMD, DME, and RVO.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S12.3">
-                     <id root="1811afd0-5b8c-4a09-81b3-83f119bc27d4"/>
+                     <id root="2c798150-1d11-4ae6-8faa-cffd91865839"/>
                      <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
                      <title>12.3 Pharmacokinetics</title>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
                         <section>
-                           <id root="c1abbd66-826b-4a4e-9e17-c5c3555bc1f8"/>
+                           <id root="80be381a-ec14-4d97-ac98-d9709cbe84a1"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1358,12 +2029,12 @@
                               </paragraph>
                               <paragraph>Maximum faricimab plasma concentrations (Cmax) are estimated to occur approximately 2 days post-dose. Mean (±SD) free faricimab (unbound to VEGF-A and Ang-2) plasma Cmax are estimated to be 0.23 (0.07) mcg/mL and 0.22 (0.07) mcg/mL in nAMD and in DME patients, respectively. After repeated intravitreal administrations, mean plasma free faricimab trough concentrations are predicted to be 0.002-0.003 mcg/mL for every 8 weeks (Q8W) dosing and 0.021-0.029 mcg/mL for every 4 weeks (Q4W) dosing. Although not directly measured in the vitreous, no accumulation of faricimab is expected in the vitreous and no accumulation has been observed in plasma when faricimab has been administered as repeat doses in the vitreous.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                      <component>
                         <section>
-                           <id root="2fa996b7-309c-44f5-a9a6-bc070bff1307"/>
+                           <id root="ada3495d-0c62-4c89-a891-bb512044b0c8"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1371,12 +2042,12 @@
                               </paragraph>
                               <paragraph>Metabolism and elimination of faricimab has not been fully characterized. Faricimab is expected to be catabolized in lysosomes to small peptides and amino acids, which may be excreted renally, in a similar manner to the elimination of endogenous IgG. The estimated mean apparent systemic half-life of faricimab is approximately 7.5 days.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                      <component>
                         <section>
-                           <id root="298b6c2a-00ef-49f5-9945-cd1d1530c6e4"/>
+                           <id root="1e028e0e-238f-4712-811a-320b2fa2839b"/>
                            <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                            <text>
                               <paragraph>
@@ -1385,62 +2056,62 @@
                               <paragraph>The systemic pharmacokinetics of faricimab were not influenced by gender, race, or mild to severe renal impairment (i.e., estimated normalized creatinine clearance by Cockroft-Gault equation: 15 to 89 mL/min/1.73 m<sup>2</sup>). The effect of severe renal impairment or any degree of hepatic impairment on the pharmacokinetics of VABYSMO is unknown. No special dosage modification is required for any of the populations that have been studied (e.g., elderly, gender, race).</paragraph>
                               <paragraph>Population pharmacokinetic analysis indicated that the pharmacokinetics of faricimab are comparable in nAMD, DME, and RVO patients.</paragraph>
                            </text>
-                           <effectiveTime value="20231031"/>
+                           <effectiveTime value="20240715"/>
                         </section>
                      </component>
                   </section>
                </component>
                <component>
                   <section ID="S12.6">
-                     <id root="70d7c192-e462-4309-ab7b-a5a39a15154e"/>
+                     <id root="81ee2958-dfcd-450a-8b88-ad31342bd05f"/>
                      <code code="88830-5" codeSystem="2.16.840.1.113883.6.1" displayName="IMMUNOGENICITY"/>
                      <title>12.6	Immunogenicity</title>
                      <text>
                         <paragraph>The immunogenicity of VABYSMO was evaluated in plasma samples. The immunogenicity data reflect the percentage of patients whose test results were considered positive for antibodies to VABYSMO in immunoassays. The detection of an immune response is highly dependent on the sensitivity and specificity of the assays used, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of antibodies to VABYSMO with the incidence of antibodies to other products may be misleading.</paragraph>
                         <paragraph>There is a potential for an immune response in patients treated with VABYSMO. In the nAMD, DME, and RVO studies, the pre-treatment incidence of anti-faricimab antibodies was approximately 0.8 to 1.8%. After initiation of dosing, the incidence of anti-faricimab antibodies was approximately 8% to 10.4% in patients treated with VABYSMO across studies. As with all therapeutic proteins, there is a potential for immunogenicity with VABYSMO.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S13">
-               <id root="2c365f71-53c3-413a-a5e7-55b387808f38"/>
+               <id root="d5602362-bde1-46e7-914a-e8c081cf6ff5"/>
                <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
                <title>13 NONCLINICAL TOXICOLOGY</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
                   <section ID="S13.1">
-                     <id root="ca1458f5-6d43-4946-ae56-abe1f4689525"/>
+                     <id root="7f698626-9321-4f12-9a33-ad44afa376b6"/>
                      <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
                      <title>13.1	Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
                      <text>
                         <paragraph>No carcinogenicity or mutagenicity data are available for VABYSMO injection in animals or humans.</paragraph>
-                        <paragraph>Based on the anti-VEGF and Ang-2 mechanisms of action, treatment with VABYSMO may pose a risk to reproductive capacity <content styleCode="italics">[see <linkHtml href="#S8.3a">Females and Males of Reproductive Potential (8.3)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Based on the anti-VEGF and Ang-2 mechanisms of action, treatment with VABYSMO may pose a risk to reproductive capacity <content styleCode="italics">[see <linkHtml href="#S8.3">Females and Males of Reproductive Potential (8.3)</linkHtml>]</content>.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S14">
-               <id root="8470ea61-5ea6-47dd-8f50-78ceeb297c92"/>
+               <id root="143ccd45-d51a-48f2-abed-74221336505a"/>
                <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
                <title>14 CLINICAL STUDIES</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
                   <section ID="S14.1">
-                     <id root="b8613503-ad84-48e2-9352-cc8fdc4fa9de"/>
+                     <id root="85b1dc9d-b1e4-4ac7-aa27-e63f89e40d91"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>14.1	Neovascular (wet) Age-Related Macular Degeneration (nAMD)</title>
                      <text>
                         <paragraph>The safety and efficacy of VABYSMO were assessed in two randomized, multi-center, double-masked, active comparator-controlled, 2-year studies (TENAYA – NCT03823287 and LUCERNE – NCT03823300) in patients with nAMD.</paragraph>
-                        <paragraph>A total of 1,329 newly diagnosed, treatment-naive patients were enrolled in these studies, and 664 patients received at least one dose of VABYSMO. Patient ages ranged from 50 to 99 with a mean of 75.9 years. The studies were identically designed two year studies. Patients were randomized in a 1:1 ratio to one of two treatment arms: 1) aflibercept 2 mg administered fixed every 8 weeks (Q8W) after three initial monthly doses; and VABYSMO 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 ± 7 days, monthly) for the first 4 doses, followed by optical coherence tomography and visual acuity evaluations 8 and 12 weeks later to determine whether to give a 6 mg (0.05 mL of 120 mg/mL solution) dose via intravitreal injection on one of the following three regimens: 1) Weeks 28 and 44; (also referred to as Q16W dosing); 2) Weeks 24, 36 and 48 (also referred to as Q12W dosing); or 3) Weeks 20, 28, 36 and 44 (also referred to as Q8W dosing). However, the utility of these criteria to guide dosing intervals has not been established.</paragraph>
-                        <paragraph>At week 48, after 4 initial monthly doses in the VABYSMO arm, 45% of patients received the  Weeks 28 and 44 dosing, 33% of patients received the Weeks 24, 36 and 48 dosing, and the remaining 22% of patients received dosing every 8 weeks. These percentages are reflective of what happened within the conduct of these trials and indicate that some patients did well on two (2) doses spaced 16 weeks apart, or three (3) doses spaced 12 weeks apart, but the percentages may not be generalizable to a broader nAMD population for a variety of reasons. The inclusion/exclusion criteria limited enrollment to a select subset of treatment naive, newly diagnosed nAMD patients and there is no empirical data that a similar magnitude would be observed if eligibility criteria allowed for broader enrollment. The disease activity criteria, which was instrumental in determining dose frequency, is unvalidated. Stricter criteria would have changed how patients were treated resulting in different percentages of subjects in each dose interval cohort. There was not a similarly dosed aflibercept arm for comparison, which makes the percentages difficult to interpret.</paragraph>
+                        <paragraph>A total of 1,329 newly diagnosed, treatment-naïve patients were enrolled in these studies, and 664 patients received at least one dose of VABYSMO. Patient ages ranged from 50 to 99 with a mean of 75.9 years. The studies were identically designed two year studies. Patients were randomized in a 1:1 ratio to one of two treatment arms: 1) aflibercept 2 mg administered fixed every 8 weeks (Q8W) after three initial monthly doses; and VABYSMO 6 mg (0.05 mL of 120 mg/mL solution) administered by intravitreal injection every 4 weeks (approximately every 28 ± 7 days, monthly) for the first 4 doses, followed by optical coherence tomography and visual acuity evaluations 8 and 12 weeks later to determine whether to give a 6 mg (0.05 mL of 120 mg/mL solution) dose via intravitreal injection on one of the following three regimens: 1) Weeks 28 and 44; (also referred to as Q16W dosing); 2) Weeks 24, 36 and 48 (also referred to as Q12W dosing); or 3) Weeks 20, 28, 36 and 44 (also referred to as Q8W dosing). However, the utility of these criteria to guide dosing intervals has not been established.</paragraph>
+                        <paragraph>At week 48, after 4 initial monthly doses in the VABYSMO arm, 45% of patients received the  Weeks 28 and 44 dosing, 33% of patients received the Weeks 24, 36 and 48 dosing, and the remaining 22% of patients received dosing every 8 weeks. These percentages are reflective of what happened within the conduct of these trials and indicate that some patients did well on two (2) doses spaced 16 weeks apart, or three (3) doses spaced 12 weeks apart, but the percentages may not be generalizable to a broader nAMD population for a variety of reasons. The inclusion/exclusion criteria limited enrollment to a select subset of treatment-naïve, newly diagnosed nAMD patients and there is no empirical data that a similar magnitude would be observed if eligibility criteria allowed for broader enrollment. The disease activity criteria, which was instrumental in determining dose frequency, is unvalidated. Stricter criteria would have changed how patients were treated resulting in different percentages of subjects in each dose interval cohort. There was not a similarly dosed aflibercept arm for comparison, which makes the percentages difficult to interpret.</paragraph>
                         <paragraph>Both studies demonstrated non-inferiority to the comparator control (aflibercept) at the primary endpoint, defined as the mean change from baseline in Best Corrected Visual Acuity (BCVA) when averaged over the week 40, 44, and 48 visits and measured by the Early Treatment Diabetic Retinopathy Study (ETDRS) letter chart. The primary endpoint analysis was a non- inferiority comparison for the mean change in BCVA between the aflibercept and the VABYSMO arm. The lower bound of the 95% confidence interval for the mean change in BCVA could not be lower than minus 4 letters to declare non-inferiority. In both studies, VABYSMO treated patients had a non-inferior mean change from baseline in BCVA compared to patients treated with aflibercept. Detailed results of both studies are shown in <linkHtml href="#table2">Table 2</linkHtml>, <linkHtml href="#FIGURE_1">Figure 1</linkHtml>, and <linkHtml href="#FIGURE_2">Figure 2</linkHtml> below. The clinical efficacy for the second year of the study has not been reviewed.</paragraph>
-                        <table ID="TABLE2" width="80%">
+                        <table ID="TABLE2" width="90%">
                            <caption>Table 2: Primary Endpoint Results<footnote>Average of weeks 40, 44 and 48</footnote> in the TENAYA and LUCERNE Studies</caption>
                            <col width="20%" align="left" valign="top"/>
                            <col width="20%" align="center" valign="top"/>
@@ -1494,27 +2165,27 @@
                         <paragraph>
                            <content styleCode="bold" ID="FIGURE_1">Figure 1: Mean Change in Visual Acuity from Baseline to Week 48 in TENAYA</content>
                         </paragraph>
-                        <renderMultiMedia referencedObject="MM13"/>
+                        <renderMultiMedia referencedObject="MM30"/>
                         <paragraph>
                            <content styleCode="bold" ID="FIGURE_2">Figure 2: Mean Change in Visual Acuity from Baseline to Week 48 in LUCERNE</content>
                         </paragraph>
-                        <renderMultiMedia referencedObject="MM14"/>
+                        <renderMultiMedia referencedObject="MM31"/>
                         <paragraph>Treatment effects in evaluable subgroups (e.g., age, gender, race, baseline visual acuity) in each study were consistent with the results in the overall population.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
-                        <observationMedia ID="MM13">
+                        <observationMedia ID="MM30">
                            <text>Figure 1</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-13.jpg"/>
+                              <reference value="vabysmo-30.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
-                        <observationMedia ID="MM14">
+                        <observationMedia ID="MM31">
                            <text>Figure 2</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-14.jpg"/>
+                              <reference value="vabysmo-31.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
@@ -1522,31 +2193,31 @@
                </component>
                <component>
                   <section ID="S14.2">
-                     <id root="8f385005-4945-42db-ba18-621b9ac79009"/>
+                     <id root="268128e9-b7c1-4505-ac19-f14e5a101d16"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>14.2	Diabetic Macular Edema (DME)</title>
                      <text>
                         <paragraph>The safety and efficacy of VABYSMO were assessed in two randomized, multi-center, double-masked, active comparator-controlled 2-year studies (YOSEMITE – NCT03622580 and RHINE – NCT03622593) in patients with DME.</paragraph>
-                        <paragraph>A total of 1,891 diabetic patients were enrolled in the two studies with a total of 1,262 patients treated with at least one dose of VABYSMO. Patient ages ranged from 24 to 91 with a mean of 62.2 years. The overall population included both anti-VEGF naive patients (78%) and patients who had been previously treated with a VEGF inhibitor prior to study participation (22%).</paragraph>
+                        <paragraph>A total of 1,891 diabetic patients were enrolled in the two studies with a total of 1,262 patients treated with at least one dose of VABYSMO. Patient ages ranged from 24 to 91 with a mean of 62.2 years. The overall population included both anti-VEGF naïve patients (78%) and patients who had been previously treated with a VEGF inhibitor prior to study participation (22%).</paragraph>
                         <paragraph>The studies were identically designed two year studies. Patients were randomized in a 1:1:1 ratio to one of three treatment regimens: 1) aflibercept Q8W, patients received fixed aflibercept 2 mg administered every 8 weeks (Q8W) after the first five monthly doses; 2) VABYSMO Q8W, patients received fixed VABYSMO 6 mg administered Q8W after the first six monthly doses; and 3) VABYSMO Variable, patients received VABYSMO 6 mg administered every 4 weeks for at least 4 doses and until the central subfield thickness (CST) of the macula measured by optical coherence tomography was less than approximately 325 microns, then the interval of dosing was modified by up to 4 week interval extensions or reductions of up to 8 week interval increments based on CST and visual acuity disease activity criteria at study drug dosing visits.</paragraph>
                         <paragraph>After 4 initial monthly doses, the patients in the VABYSMO Variable arm received between a minimum of 1 and a maximum of 21 total injections (median of 7 injections) through Week 96 inclusive. At Week 56, 32% of patients had completed at least one Q12W interval followed by one full Q16W interval. Seventeen percent (17%) of patients were treated on Q8W and/or Q4W dosing intervals through Week 56 (7% only on Q4W). These percentages are reflective of what happened within the conduct of these trials, but the percentages may not be generalizable to a broader DME population.</paragraph>
                         <paragraph>The inclusion/exclusion criteria limited enrollment to a select subset of DME patients and there is no empirical data that a similar magnitude would be observed if eligibility criteria allowed for broader enrollment. The disease activity criteria, which were instrumental in determining dose frequency, are unvalidated. Different 								 criteria would have changed how patients were treated resulting in different percentages of subjects in each dose interval cohort. There was not a similarly dosed aflibercept arm for comparison which makes the percentages difficult to interpret.</paragraph>
-                        <paragraph>Both studies demonstrated non-inferiority to the comparator control (aflibercept) at the primary endpoint, defined as the mean change from baseline in BCVA at year 1 (average of the Week 48, 52, and 56 visits), measured by the ETDRS Letter Score. The primary endpoint analysis was a non-inferiority comparison for the mean change in BCVA between the aflibercept and VABYSMO arms. The lower bound of the 97.5% confidence interval for the mean change in BCVA could not be lower than minus 4 letters to declare non-inferiority. In both studies, VABYSMO Q8W and VABYSMO Variable treated patients had a non-inferior mean change from baseline in BCVA to the patients treated with aflibercept Q8W at the year 1 primary endpoint. Detailed results of both studies are shown in <linkHtml href="#table3">Table 3</linkHtml>, <linkHtml href="#FIGURE_3">Figure 3</linkHtml>, and <linkHtml href="#FIGURE_4">Figure 4</linkHtml> below.</paragraph>
-                        <table ID="TABLE3" width="100%">
+                        <paragraph>Both studies demonstrated non-inferiority to the comparator control (aflibercept) at the primary endpoint, defined as the mean change from baseline in BCVA at year 1 (average of the Week 48, 52, and 56 visits), measured by the ETDRS Letter Score. The primary endpoint analysis was a non-inferiority comparison for the mean change in BCVA between the aflibercept and VABYSMO arms. The lower bound of the 97.5% confidence interval for the mean change in BCVA could not be lower than minus 4 letters to declare non-inferiority. In both studies, VABYSMO Q8W and VABYSMO Variable treated patients had a non-inferior mean change from baseline in BCVA to the patients treated with aflibercept Q8W at the year 1 primary endpoint. Detailed results of both studies are shown in <linkHtml href="#TABLE3">Table 3</linkHtml>, <linkHtml href="#FIGURE_3">Figure 3</linkHtml>, and <linkHtml href="#FIGURE_4">Figure 4</linkHtml> below.</paragraph>
+                        <table ID="TABLE3" width="95%">
                            <caption>Table 3: Efficacy Results at Year 1<footnote>Average of Weeks 48, 52, 56 </footnote> and at Year 2<footnote>Average of Weeks 92, 96, 100</footnote> in the YOSEMITE and RHINE Studies</caption>
-                           <col width="16%" align="left" valign="top"/>
+                           <col width="22%" align="left" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
-                           <col width="7%" align="center" valign="top"/>
+                           <col width="6%" align="center" valign="top"/>
                            <thead>
                               <tr styleCode="Botrule">
                                  <th styleCode="Lrule Rrule" rowspan="3"/>
@@ -1628,27 +2299,27 @@
                         <paragraph>
                            <content styleCode="bold" ID="FIGURE_3">Figure 3: Mean Change in Visual Acuity from Baseline to Year 2 (Week 100) in YOSEMITE</content>
                         </paragraph>
-                        <renderMultiMedia referencedObject="MM15"/>
+                        <renderMultiMedia referencedObject="MM32"/>
                         <paragraph>
                            <content styleCode="bold" ID="FIGURE_4">Figure 4: Mean Change in Visual Acuity from Baseline to Year 2 (Week 100) in RHINE</content>
                         </paragraph>
-                        <renderMultiMedia referencedObject="MM16"/>
-                        <paragraph>Treatment effects in the subgroup of patients who were anti-VEGF naive prior to study participation were similar to those observed in the overall population. Treatment effects in evaluable subgroups (e.g., by age, gender, race, baseline HbA1c, baseline visual acuity) in each study were generally consistent with the results in the overall population.</paragraph>
+                        <renderMultiMedia referencedObject="MM33"/>
+                        <paragraph>Treatment effects in the subgroup of patients who were anti-VEGF naïve prior to study participation were similar to those observed in the overall population. Treatment effects in evaluable subgroups (e.g., by age, gender, race, baseline HbA1c, baseline visual acuity) in each study were generally consistent with the results in the overall population.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
-                        <observationMedia ID="MM15">
+                        <observationMedia ID="MM32">
                            <text>Figure 3</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-15.jpg"/>
+                              <reference value="vabysmo-32.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
-                        <observationMedia ID="MM16">
+                        <observationMedia ID="MM33">
                            <text>Figure 4</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-16.jpg"/>
+                              <reference value="vabysmo-33.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
@@ -1656,12 +2327,12 @@
                </component>
                <component>
                   <section ID="S14.3">
-                     <id root="d474f830-2c47-43f2-82dc-067529c347bb"/>
+                     <id root="77ee660b-6d9b-4fad-a5eb-d64b280a014c"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>14.3	Macular Edema Following Retinal Vein Occlusion (RVO) </title>
                      <text>
                         <paragraph>The safety and efficacy of VABYSMO were assessed in two randomized, multicenter, double-masked, studies (BALATON – NCT04740905 in patients with macular edema following branch retinal vein occlusion, and COMINO – NCT04740931 in patients with macular edema following central retinal vein occlusion/hemiretinal vein occlusion). Active comparator-controlled data are available through month 6.</paragraph>
-                        <paragraph>A total of 1,282 newly diagnosed, treatment-naive patients were enrolled in these studies, of which 641 patients received at least one dose of VABYSMO through 6 months. Patient ages ranged from 28 to 93 with a mean of 64 years, and 22 to 100 with a mean of 65 years in BALATON and COMINO, respectively.</paragraph>
+                        <paragraph>A total of 1,282 newly diagnosed, treatment-naïve patients were enrolled in these studies, of which 641 patients received at least one dose of VABYSMO through 6 months. Patient ages ranged from 28 to 93 with a mean of 64 years, and 22 to 100 with a mean of 65 years in BALATON and COMINO, respectively.</paragraph>
                         <paragraph>In both studies, patients were randomized in a 1:1 ratio to either 6 mg VABYSMO administered every 4 weeks, or the control arm receiving aflibercept 2 mg injections every 4 weeks for a total of 6 injections.</paragraph>
                         <paragraph>In both studies, the VABYSMO 6 mg Q4W arm demonstrated non-inferiority to the comparator control (aflibercept) arm for the primary endpoint, which was defined as the change from baseline in BCVA at week 24, measured by the ETDRS Letter Score. The primary endpoint analysis was a non-inferiority comparison for the mean change in BCVA between the aflibercept and VABYSMO arms, where the lower bound of the 95% confidence interval for the mean change in BCVA could not be lower than minus 4 letters to declare non-inferiority.</paragraph>
                         <paragraph>Detailed results for both BALATON and COMINO studies are shown in <linkHtml href="#table4">Table 4</linkHtml>, <linkHtml href="#fig5">Figure 5</linkHtml>, and <linkHtml href="#fig6">Figure 6</linkHtml> below.</paragraph>
@@ -1701,14 +2372,14 @@
                            </tfoot>
                            <tbody>
                               <tr styleCode="Botrule">
-                                 <td styleCode="Lrule Rrule">Mean change in BCVA as measured by ETDRS letter score from baseline (95% CI)</td>
+                                 <td styleCode="Lrule Rrule">Mean change in BCVA as measured by ETDRS letter score from baseline <br/>(95% CI)</td>
                                  <td styleCode="Rrule">16.9<br/>(15.7, 18.1)</td>
                                  <td styleCode="Rrule">17.5<br/>(16.3, 18.6)</td>
                                  <td styleCode="Rrule">16.9<br/>(15.4, 18.3)</td>
                                  <td styleCode="Rrule">17.3<br/>(15.9, 18.8)</td>
                               </tr>
                               <tr>
-                                 <td styleCode="Lrule Rrule">Difference in LS mean (95% CI)</td>
+                                 <td styleCode="Lrule Rrule">Difference in LS mean <br/>(95% CI)</td>
                                  <td styleCode="Rrule">-0.6<br/>(-2.2, 1.1)</td>
                                  <td styleCode="Rrule"/>
                                  <td styleCode="Rrule">-0.4<br/>(-2.5, 1.6)</td>
@@ -1720,29 +2391,29 @@
                            <content styleCode="bold">Figure 5: Mean Change in Visual Acuity from Baseline to Week 24 in BALATON</content>
                         </paragraph>
                         <paragraph>
-                           <renderMultiMedia referencedObject="MM17"/>
+                           <renderMultiMedia referencedObject="MM34"/>
                         </paragraph>
                         <paragraph ID="fig6">
                            <content styleCode="bold">Figure 6: Mean Change in Visual Acuity from Baseline to Week 24 in COMINO </content>
                         </paragraph>
                         <paragraph>
-                           <renderMultiMedia referencedObject="MM18"/>
+                           <renderMultiMedia referencedObject="MM35"/>
                         </paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                      <component>
-                        <observationMedia ID="MM17">
+                        <observationMedia ID="MM34">
                            <text>Figure 5</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-17.jpg"/>
+                              <reference value="vabysmo-34.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
                      <component>
-                        <observationMedia ID="MM18">
+                        <observationMedia ID="MM35">
                            <text>Figure 6</text>
                            <value xsi:type="ED" mediaType="image/jpeg">
-                              <reference value="faricimab-18.jpg"/>
+                              <reference value="vabysmo-35.jpg"/>
                            </value>
                         </observationMedia>
                      </component>
@@ -1752,65 +2423,89 @@
          </component>
          <component>
             <section ID="S16">
-               <id root="b26f3463-6ef8-4473-91dc-45293ed4886c"/>
+               <id root="08b33211-da90-4175-a25d-c6621f3e6442"/>
                <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
                <title>16	HOW SUPPLIED/STORAGE AND HANDLING</title>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
                   <section ID="S16.1">
-                     <id root="e9aa9a86-bb83-4869-bc89-3b12d1123719"/>
+                     <id root="32596afc-43a8-4e6e-a0ef-8527714259f9"/>
                      <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                      <title>16.1	How Supplied</title>
                      <text>
-                        <paragraph>VABYSMO (faricimab-svoa) injection is supplied as a clear to opalescent, colorless to brownish-yellow 120 mg/mL solution in a single-dose glass vial. Each glass vial contains an overfill amount to allow for administration of a single 0.05 mL dose of solution containing 6 mg of VABYSMO.  Each VABYSMO carton (NDC 50242-096-01) contains one glass vial and one sterile 5-micron blunt transfer filter needle (18-gauge × 1½ inch, 1.2 mm × 40 mm).</paragraph>
+                        <paragraph>VABYSMO (faricimab-svoa) injection is supplied as a clear to opalescent, colorless to brownish-yellow solution as 6 mg (0.05 mL of 120 mg/mL solution) in a single-dose prefilled syringe or single-dose vial. Each prefilled syringe or vial is for treatment of a single eye. </paragraph>
+                        <paragraph>VABYSMO is supplied in the following presentations:</paragraph>
+                        <table width="85%">
+                           <col width="20%" align="left" valign="top"/>
+                           <col width="20%" align="left" valign="top"/>
+                           <col width="60%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">NDC NUMBER</th>
+                                 <th styleCode="Rrule">CARTON TYPE</th>
+                                 <th styleCode="Rrule">CARTON CONTENTS</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">50242-096-06</td>
+                                 <td styleCode="Rrule">Prefilled Syringe</td>
+                                 <td styleCode="Rrule">one 6 mg (0.05 mL of 120 mg/mL solution) single-dose prefilled glass syringe, in a sealed tray<br/>one sterile injection filter needle (30-gauge × ½ inch, 0.30 mm × 12.7 mm, Extra Thin Wall)<br/>one Prescribing Information</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">50242-096-01</td>
+                                 <td styleCode="Rrule">Vial</td>
+                                 <td styleCode="Rrule">one 6 mg (0.05 mL of 120 mg/mL solution) single-dose glass vial<br/>one sterile 5-micron blunt transfer filter needle (18-gauge × 1½ inch, 1.2 mm × 40 mm)<br/>one Prescribing Information</td>
+                              </tr>
+                           </tbody>
+                        </table>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
                <component>
                   <section ID="S16.2">
-                     <id root="c3636857-a7f6-4abb-827f-6df1d19742f9"/>
+                     <id root="d63a376f-7e0b-4800-ae18-5ed4788a2728"/>
                      <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
                      <title>16.2	Storage and Handling</title>
                      <text>
-                        <paragraph>Store VABYSMO in the refrigerator between 2°C to 8°C (36°F to 46°F). Do not freeze. Do not shake. Keep the vial in the original carton to protect from light.</paragraph>
-                        <paragraph>Prior to use, the unopened glass vial of VABYSMO may be kept at room temperature, 20°C to 25°C (68°F to 77°F), for up to 24 hours. Ensure that the injection is given immediately after preparation of the dose.</paragraph>
+                        <paragraph>Store VABYSMO in the refrigerator between 2°C to 8°C (36°F to 46°F). Do not freeze. Do not shake. Keep the sealed tray containing the prefilled syringe or the vial in the original carton to protect from light.</paragraph>
+                        <paragraph>Prior to use, the unopened prefilled syringe or glass vial of VABYSMO may be kept at room temperature, 20°C to 25°C (68°F to 77°F), for up to 24 hours. Ensure that the injection is given immediately after preparation of the dose.</paragraph>
                      </text>
-                     <effectiveTime value="20231031"/>
+                     <effectiveTime value="20240715"/>
                   </section>
                </component>
             </section>
          </component>
          <component>
             <section ID="S17">
-               <id root="660d545a-5e82-4e1f-9e27-1b50d5b5ad76"/>
+               <id root="bc825cf1-ac2a-4e8c-9844-940e8b0523de"/>
                <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
                <title>17	PATIENT COUNSELING INFORMATION</title>
                <text>
                   <paragraph>Advise patients that in the days following VABYSMO administration, patients are at risk of developing endophthalmitis, retinal detachment, intraocular inflammation and retinal vasculitis with or without retinal vascular occlusion. If the eye becomes red, sensitive to light, painful, or develops a change in vision, advise the patient to seek immediate care from an ophthalmologist <content styleCode="italics">[see <linkHtml href="#S5">Warnings and Precautions (5)</linkHtml>]</content>.</paragraph>
                   <paragraph>Patients may experience temporary visual disturbances after an intravitreal injection with VABYSMO and the associated eye examinations <content styleCode="italics">[see <linkHtml href="#S6">Adverse Reactions (6)</linkHtml>]</content>. Advise patients not to drive or use machinery until visual function has recovered sufficiently.</paragraph>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
             </section>
          </component>
          <component>
             <section>
-               <id root="315f0667-22ca-4a43-bfe0-c66bc41aa8e7"/>
+               <id root="5b8b8df9-3edd-4f94-82b0-c8e8d0e5e94f"/>
                <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
                <text>
                   <paragraph>VABYSMO<sup>®</sup> [faricimab-svoa]<br/>Manufactured by:<br/>
                      <content styleCode="bold">Genentech, Inc</content>.<br/> A Member of the Roche Group<br/>1 DNA Way<br/>South San Francisco, CA 94080-4990<br/>U.S. License No.: 1048</paragraph>
                   <paragraph>
-                     <content styleCode="italics">VABYSMO</content> is a trademark of Genentech, Inc.<br/>
-                     <sup>©</sup>2023 Genentech, Inc.</paragraph>
+                     <content styleCode="italics">VABYSMO</content> is a trademark of Genentech, Inc.<br/>                     ©2024 Genentech, Inc.</paragraph>
                   <paragraph>Representative sample of labeling (see the <linkHtml href="#S16">HOW SUPPLIED</linkHtml> section for complete listing):</paragraph>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
             </section>
          </component>
          <component>
             <section>
-               <id root="6862908c-257c-4809-8397-fb7fd23a4a26"/>
+               <id root="09e5b505-d98d-480d-a686-2e0ea92552d2"/>
                <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
                <title>PRINCIPAL DISPLAY PANEL - 6 mg Vial Carton</title>
                <text>
@@ -1821,14 +2516,42 @@
                   <paragraph>1 single-dose vial<br/> 1 transfer filter needle</paragraph>
                   <paragraph>Rx only<br/> Genentech</paragraph>
                   <paragraph>10239448</paragraph>
-                  <renderMultiMedia referencedObject="MM19"/>
+                  <renderMultiMedia referencedObject="MM36"/>
                </text>
-               <effectiveTime value="20231031"/>
+               <effectiveTime value="20240715"/>
                <component>
-                  <observationMedia ID="MM19">
+                  <observationMedia ID="MM36">
                      <text>PRINCIPAL DISPLAY PANEL - 6 mg Vial Carton</text>
                      <value xsi:type="ED" mediaType="image/jpeg">
-                        <reference value="faricimab-19.jpg"/>
+                        <reference value="vabysmo-36.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ad8339e8-3fc3-4314-88b9-2977630b171d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 6 mg Syringe Carton</title>
+               <text>
+                  <paragraph>Vabysmo<sup>®</sup>
+                     <br/> (faricimab-svoa)<br/> Injection</paragraph>
+                  <paragraph>NDC 50242-096-06</paragraph>
+                  <paragraph>6 mg (0.05 mL of 120 mg/mL solution)</paragraph>
+                  <paragraph>For Intravitreal Injection <br/>Single-Dose Prefilled Syringe</paragraph>
+                  <paragraph>ATTENTION: <br/>Only use the provided injection filter needle for the administration.<br/> The dose must be set to the 0.05 mL dose mark (see enclosed prescribing information).</paragraph>
+                  <paragraph>1 Sterile Prefilled Syringe <br/>1 Sterile Injection Filter Needle</paragraph>
+                  <paragraph>Rx only<br/> Genentech</paragraph>
+                  <paragraph>11005157</paragraph>
+                  <renderMultiMedia referencedObject="MM37"/>
+               </text>
+               <effectiveTime value="20240715"/>
+               <component>
+                  <observationMedia ID="MM37">
+                     <text>PRINCIPAL DISPLAY PANEL - 6 mg Syringe Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vabysmo-37.jpg"/>
                      </value>
                   </observationMedia>
                </component>
