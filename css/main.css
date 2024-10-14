@@ -145,3 +145,14 @@ body {
     bottom: 8%;
     /* border: 1px solid red; */
 }
+
+.screensaver-video {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: black;
+}
