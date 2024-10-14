@@ -1,35 +1,3 @@
-let idleTime = 0;
-let idleInterval;
-// const screensaverTimeout = 120000; // 2 minutes
-const screensaverTimeout = 20000; // 20 seconds
-const screensaverVideo = document.getElementById('screensaver-video');
-
-// Reset idle timer on user activity
-function resetIdleTimer() {
-	idleTime = 0;
-	if (screensaverVideo.style.display === 'block') {
-	  // Exit fullscreen and stop video
-	  screensaverVideo.style.display = 'none';
-	//   document.exitFullscreen();
-	  screensaverVideo.pause();
-	}
-  }
-
-  // Track user activity
-  window.onload = function() {
-	document.onclick = resetIdleTimer;
-
-	idleInterval = setInterval(function() {
-	  idleTime += 1000;
-	  if (idleTime >= screensaverTimeout) {
-		// Activate screensaver (play video in fullscreen)
-		screensaverVideo.style.display = 'block';
-		// screensaverVideo.requestFullscreen();
-		screensaverVideo.play();
-	  }
-	}, 1000); // check every second
-  };
-
 
 function showPopup(popup) {
 	if(isActive === false) {
