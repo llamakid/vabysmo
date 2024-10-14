@@ -1,7 +1,7 @@
 let idleTime = 0;
 let idleInterval;
-// const screensaverTimeout = 120000; // 2 minutes in milliseconds
-const screensaverTimeout = 2000; // 2 seconds in milliseconds
+const screensaverTimeout = 120000; // 2 minutes in milliseconds
+// const screensaverTimeout = 2000; // 2 seconds in milliseconds
 
 // Reset idle timer on user activity
 function resetIdleTimer(screensaverVideo) {
